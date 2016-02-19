@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp"/>
+
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/blue"
+                android:centerY="0.75"
+                android:endColor="@color/green"
+                android:startColor="@color/youlan"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"/>
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/blue"
+                    android:centerY="0.75"
+                    android:endColor="@color/green"
+                    android:startColor="@color/youlan"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"/>
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/lightgray"
+                    android:centerY="0.75"
+                    android:endColor="@color/yellow"
+                    android:startColor="@color/red"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/drawable/progressbar_bg.xml -->

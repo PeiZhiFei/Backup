@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <feifei.project.view.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/gd_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/gd_fav_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/fav_p"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/main_red_color"/>
+
+            <TextView
+                android:id="@+id/gd_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="5dp"
+                android:text="商品载入中……"
+                android:textColor="@color/darkgray"
+                android:textSize="15sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/gd_price_prefix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="10dp"
+                    android:text="￥"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/gd_price"
+                    style="@style/WrapContent"
+                    android:layout_alignBaseline="@id/gd_price_prefix"
+                    android:layout_toRightOf="@+id/gd_price_prefix"
+                    android:text=""
+                    android:textColor="@color/red"
+                    android:textSize="16sp"/>
+
+                <ImageButton
+                    android:id="@+id/minus_btn"
+                    style="@style/WrapContent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toLeftOf="@+id/order_count"
+                    android:background="@drawable/counter_minus"/>
+
+                <TextView
+                    android:id="@+id/order_count"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:layout_toLeftOf="@+id/plus_btn"
+                    android:background="@drawable/goods_order_count1"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="12sp"/>
+
+                <ImageButton
+                    android:id="@+id/plus_btn"
+                    style="@style/WrapContent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/gd_add2shopcart"
+                    android:background="@drawable/counter_plus"
+                    android:contentDescription="@string/login"/>
+
+                <Button
+                    android:id="@+id/gd_add2shopcart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/button_green"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="加入购物车"
+                    android:textColor="@drawable/gd_text_color"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E5E5E5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_detail"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="  20分钟送货到门"
+                    android:textColor="#90000000"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_detail"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="积分抵现金"
+                    android:textColor="#90000000"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:background="#E5E5E5"/>-->
+
+            <include layout="@layout/include_judge"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#E5E5E5"/>
+
+            <TextView
+                android:id="@+id/gd_guess_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="您可能还需要"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E5E5E5"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/gd_guess_cc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </feifei.project.view.OverScrollView>
+
+    <include layout="@layout/bottom_shopcart"/>"
+
+</RelativeLayout>

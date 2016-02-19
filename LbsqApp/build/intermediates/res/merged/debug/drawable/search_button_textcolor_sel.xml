@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:color="@color/lightgray"/>
+    <item android:color="@color/white"/>
+
+</selector><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/drawable/search_button_textcolor_sel.xml -->

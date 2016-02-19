@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/good_border"
+                android:descendantFocusability="afterDescendants"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+    <feifei.project.view.smartimage.SmartImageView
+        android:id="@+id/good_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/login"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/good_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/good_img"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="@string/goodtype"
+        android:textColor="@color/darkgray"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/WrapContent"
+        android:text="@string/price"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@id/good_name"
+        android:layout_below="@id/good_name"
+        android:textColor="@color/reds"
+        android:textSize="12sp"/>
+
+
+<LinearLayout
+    android:id="@+id/count"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_alignLeft="@id/price"
+    android:layout_below="@id/price"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/gci_count_label"
+        style="@style/WrapContent"
+        android:text="数量 :"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/minus_btn"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/counter_minus"
+        android:contentDescription="@string/login"/>
+
+    <TextView
+        android:id="@+id/order_count"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goods_order_count1"
+        android:enabled="false"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="123"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+    <ImageButton
+        android:id="@+id/plus_btn"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/counter_plus"
+        android:contentDescription="@string/login"/>
+</LinearLayout>
+
+<ImageButton
+    android:id="@+id/good_card"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="5dp"
+    android:layout_alignBottom="@id/count"
+    android:background="@drawable/shop_card"
+    android:contentDescription="@string/login"/>
+</RelativeLayout>

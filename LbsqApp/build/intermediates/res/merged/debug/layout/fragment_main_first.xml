@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<feifei.library.refreshview.view.RefreshScrollView-->
+    <!--android:id="@+id/scroll_view"-->
+    <!--style="@style/width_height_match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:background="#ffffff">-->
+    <feifei.project.view.SlowScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/width_height_match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <!--         <fragment -->
+        <!--             android:id="@+id/fragment0" -->
+        <!--             android:name="com.runkun.lbsq.fragment.MainAdsFragment" -->
+        <!--             android:layout_width="match_parent" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_weight="1" /> -->
+
+        <!--         <fragment -->
+        <!--             android:id="@+id/fragment1" -->
+        <!--             android:name="com.runkun.lbsq.fragment.MainTejiaFragment" -->
+        <!--             android:layout_width="match_parent" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_weight="1" /> -->
+
+        <!--         <fragment -->
+        <!--             android:id="@+id/fragment3" -->
+        <!--             android:name="com.runkun.lbsq.fragment.MainShipinFragment" -->
+        <!--             android:layout_width="match_parent" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_weight="1" /> -->
+
+        <!--         <fragment -->
+        <!--             android:id="@+id/fragment2" -->
+        <!--             android:name="com.runkun.lbsq.fragment.MainJiushuiFragment" -->
+        <!--             android:layout_width="match_parent" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_weight="1" /> -->
+
+        <!--         <fragment -->
+        <!--             android:id="@+id/fragment4" -->
+        <!--             android:name="com.runkun.lbsq.fragment.MainLiangyouFragment" -->
+        <!--             android:layout_width="match_parent" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_weight="1" /> -->
+    </LinearLayout>
+
+    </feifei.project.view.SlowScrollView>
+<!--</feifei.library.refreshview.view.RefreshScrollView>-->
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_main_first.xml -->

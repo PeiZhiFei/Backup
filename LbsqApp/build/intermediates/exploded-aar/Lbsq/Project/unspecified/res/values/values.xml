@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Git/Lbsq/Project/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="backgroundgray">#efeee9</color>
+    <color name="banana">#FFCC00</color>
+    <color name="black">#000000</color>
+    <color name="black2">#f707252b</color>
+    <color name="blue">#0b6aff</color>
+    <color name="blue2">#500b6aff</color>
+    <color name="bluelogin">#00bfd4</color>
+    <color name="blueness">#60d5c3</color>
+    <color name="brown">#9575cd</color>
+    <color name="brown2">#eeb7f4</color>
+    <color name="brown3">#8e048c</color>
+    <color name="brown_pressed">#509575cd</color>
+    <color name="city_color">#E5E5E5</color>
+    <color name="city_color_pressed">#50E5E5E5</color>
+    <color name="darkgray">#666666</color>
+    <color name="darkgray2">#999999</color>
+    <color name="deep_orange">#d34545</color>
+    <color name="deep_red">#80d61212</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="halftransparent">#e0000000</color>
+    <color name="light_green">#7fac7c</color>
+    <color name="lightgray">#dededc</color>
+    <color name="lightgray2">#50dededc</color>
+    <color name="lightred">#EB3C00</color>
+    <color name="line_gray">#9e9a9b</color>
+    <color name="main_green">#39ac69</color>
+    <color name="main_green_pressed">#5039ac69</color>
+    <color name="mainblack">#333333</color>
+    <color name="orange">#f48f5c</color>
+    <color name="orangepressed">#50FF8e56</color>
+    <color name="origianlprice">#2edad8</color>
+    <color name="pink">#01a8a8</color>
+    <color name="pink_pressed">#5000cccc</color>
+    <color name="red">#db4141</color>
+    <color name="red2">#db6c60</color>
+    <color name="red_pressed">#50ff5757</color>
+    <color name="reds">#ff5757</color>
+    <color name="toast_color">#ff2E76B9</color>
+    <color name="transparent">#01000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#f29901</color>
+    <color name="yolk">#feefab</color>
+    <declare-styleable name="ActionSheet"><attr format="color|reference" name="actionSheetBackground"/><attr format="color|reference" name="cancelButtonBackground"/><attr format="color|reference" name="otherButtonTopBackground"/><attr format="color|reference" name="otherButtonMiddleBackground"/><attr format="color|reference" name="otherButtonBottomBackground"/><attr format="color|reference" name="otherButtonSingleBackground"/><attr format="color|reference" name="cancelButtonTextColor"/><attr format="color|reference" name="otherButtonTextColor"/><attr format="dimension|reference" name="actionSheetPadding"/><attr format="dimension|reference" name="otherButtonSpacing"/><attr format="dimension|reference" name="cancelButtonMarginTop"/><attr format="dimension|reference" name="actionSheetTextSize"/></declare-styleable>
+    <declare-styleable name="ActionSheets"><attr format="reference" name="actionSheetStyle"/></declare-styleable>
+    <declare-styleable name="ClearEditText"><attr format="reference" name="right_image"/></declare-styleable>
+    <declare-styleable name="CradleBall"><attr format="color" name="loading_color"/><attr format="string" name="loading_text"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="color" name="pstsUnderlineColor"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsDividerWidth"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsScrollOffset"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsPaddingMiddle"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="reference" name="pstsTabBackground"/><attr format="dimension" name="pstsTabTextSize"/><attr format="reference" name="pstsTabTextColor"/><attr format="reference" name="pstsTabTextStyle"><flag name="normal" value="0x0"/><flag name="bold" value="0x1"/><flag name="italic" value="0x2"/></attr><attr format="boolean" name="pstsTabTextAllCaps"/><attr format="integer" name="pstsTabTextAlpha"/><attr format="string" name="pstsTabTextFontFamily"/></declare-styleable>
+    <declare-styleable name="PercentLayout_Layout"><attr format="string" name="layout_widthPercent"/><attr format="string" name="layout_heightPercent"/><attr format="string" name="layout_marginPercent"/><attr format="string" name="layout_marginLeftPercent"/><attr format="string" name="layout_marginTopPercent"/><attr format="string" name="layout_marginRightPercent"/><attr format="string" name="layout_marginBottomPercent"/><attr format="string" name="layout_marginStartPercent"/><attr format="string" name="layout_marginEndPercent"/><attr format="string" name="layout_textSizePercent"/><attr format="string" name="layout_maxWidthPercent"/><attr format="string" name="layout_maxHeightPercent"/><attr format="string" name="layout_minWidthPercent"/><attr format="string" name="layout_minHeightPercent"/></declare-styleable>
+    <!-- From: file:/E:/Git/Lbsq/Project/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Project</string>
+    <!-- From: file:/E:/Git/Lbsq/Project/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="ActionSheetStyleIOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/asheet_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/asheet_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/asheet_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/asheet_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/asheet_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+    <style name="dialog_bottom_style" parent="dialog_style">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/popup_anim</item>
+    </style>
+    <style name="dialog_loading_style" parent="dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="dialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="percent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="popup_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+</resources>

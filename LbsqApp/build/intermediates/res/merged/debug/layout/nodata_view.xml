@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/nodata"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ImageView
+        style="@style/WrapContent"
+        android:background="@drawable/no_data"
+        />
+
+    <TextView
+        android:id="@+id/nodataText"
+        style="@style/WrapContent"
+        android:padding="10dp"
+        android:text="更多商品正在上架中……"
+        android:textColor="@color/lightgray"/>
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/nodata_view.xml -->

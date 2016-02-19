@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_cont"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgray"
+    android:orientation="vertical"
+    android:paddingBottom="8.0dip"
+    android:paddingTop="8.0dip" >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/pop_layout.xml -->

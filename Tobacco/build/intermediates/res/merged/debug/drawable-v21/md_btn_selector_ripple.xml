@@ -1,0 +1,8 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/md_btn_shape" />
+
+</ripple><!-- From: file:/C:/Users/Administrator/Desktop/material-dialogs-master/library/src/main/res/drawable-v21/md_btn_selector_ripple.xml --><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/build/intermediates/exploded-aar/dialog/res/drawable-v21/md_btn_selector_ripple.xml -->

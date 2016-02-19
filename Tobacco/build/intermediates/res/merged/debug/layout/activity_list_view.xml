@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <feifei.library.view.swipmenu.SwipeMenuListView
+        android:id="@+id/list"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+<!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/layout/activity_list_view.xml -->

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/popbg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_subscribemsg"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:drawableLeft="@drawable/s1"
+        android:gravity="center"
+        android:text="@string/subscribe_msg"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/tv_fav"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+         android:drawableLeft="@drawable/s2"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="我的收藏"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/tv_checkupdate"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+         android:drawableLeft="@drawable/s3"
+        android:layout_gravity="center"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/checkupdate"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/tv_guide"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+         android:drawableLeft="@drawable/s4"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/guide"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/about"
+         android:drawableLeft="@drawable/s5"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/tv_clearcache"
+        android:layout_width="150dp"
+         android:drawableLeft="@drawable/s6"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/setting_text_click"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/clearcache"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

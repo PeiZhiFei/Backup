@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.library.view.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_image"
+        app:layout_marginTopPercent="5%h"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用烟叶生产管理系统"
+        android:textColor="#71c7c4"
+        android:textSize="20sp"
+        app:layout_marginTopPercent="3%h"/>
+
+    <feifei.library.view.ClearEditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/login_border"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="请输入用户名"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="#2c97b5"
+        android:textColorHint="@color/darkgray2"
+        android:textSize="18sp"
+        app:layout_marginTopPercent="3%h"
+        app:layout_widthPercent="70%w"
+        app:right_image="@drawable/edittext_green"
+        />
+
+    <feifei.library.view.ClearEditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/login_border"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textColor="#2c97b5"
+        android:textColorHint="@color/darkgray2"
+        android:textSize="18sp"
+        app:layout_marginTopPercent="3%h"
+        app:layout_widthPercent="70%w"
+        app:right_image="@drawable/edittext_green"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="离线登录"
+        android:textColor="@color/white"
+        app:layout_marginTopPercent="3%h"
+        app:layout_widthPercent="70%w"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:text="下载离线数据"
+        android:textColor="@color/white"
+        app:layout_marginTopPercent="3%h"
+        app:layout_widthPercent="70%w"/>
+
+
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="当前版本：V1"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="#2c97b5"
+        android:textColorHint="@color/darkgray2"
+        android:textSize="18sp"
+        app:layout_marginTopPercent="20%h"
+        app:layout_widthPercent="70%w"
+        app:right_image="@drawable/edittext_green"
+        />
+
+
+</feifei.library.view.percent.PercentLinearLayout>

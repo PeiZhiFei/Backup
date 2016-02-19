@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ExpandableListView
+    android:id="@+id/goods_category_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/as_single_normal"
+    android:cacheColorHint="#00000000"
+    android:childIndicatorLeft="0dp"
+    android:divider="@null"
+    android:groupIndicator="@null"
+    android:listSelector="@drawable/gc_btn_bg"
+    android:scrollbars="none">
+</ExpandableListView>

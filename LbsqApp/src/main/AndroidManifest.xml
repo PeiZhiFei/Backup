@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.runkun.lbsq"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"/>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 微信支付权限 -->
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 支付宝支付相关权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- 拨号权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 百度推送权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/XTheme2">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="orvNcYQN9h6Ge6CnPoUavAn0"/>
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="9F7BA6CA45FC34E3042361D94B507C93"/>
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="零步社区Android"/>
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GoodDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.ShopCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MyCouponsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.BuyNowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MyCollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.JudgeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.ProductAcitivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.GoodMoreActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.SearchGoodsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.SearchShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.JudgeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MyJudgeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MyBuyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.SelectorCity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.ShopListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.AddAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.MyAddressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+
+        <!-- 微信支付的Activity -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent">
+        </activity>
+        <!-- 支付宝支付activity -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity
+            android:name=".activity.AlipayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+        <activity
+            android:name=".activity.ShowOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2"/>
+
+        <receiver android:name=".pay.AppRegister">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+
+        <activity
+            android:name=".activity.MyOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2">
+        </activity>
+        <activity
+            android:name=".activity.OrderInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2">
+        </activity>
+        <activity
+            android:name=".activity.UsableCouponActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/XTheme2">
+        </activity>
+
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW"/>
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK"/>
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <!-- Push服务接收客户端发送的各种请求 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD"/>
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"/>
+            </intent-filter>
+        </service>
+        <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true"/>
+        <!-- push结束 -->
+
+        <receiver android:name=".push.PushTestReceiver">
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE"/>
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE"/>
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.MyWebActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.InformationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".test.TestActivity"
+            android:label="@string/title_activity_test">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,215 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:5:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:7:5-84
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:7:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATEA
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:14:22-74
+uses-permission#android.permission.INTERNET
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:15:22-64
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:16:5-85
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:16:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:18:22-70
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:20:5-21:18
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:20:17-73
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:23:5-24:23
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_GPS
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:25:22-66
+uses-feature#android.hardware.camera
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:29:5-31:35
+	android:required
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:31:9-32
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:30:9-47
+application
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:33:5-78:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [:dialog:] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\dialog\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:37:9-41
+	android:supportsRtl
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:39:9-35
+	android:allowBackup
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:35:9-35
+	android:icon
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:36:9-45
+	android:largeHeap
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:38:9-33
+	android:theme
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:40:9-40
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:34:9-47
+activity#laiyi.tobacco.activity.SplashActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:41:9-47:20
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:41:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:45:27-74
+activity#laiyi.tobacco.activity.MainActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:49:13-50
+activity#laiyi.tobacco.activity.LoginActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:52:9-54:48
+	android:label
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:54:13-45
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:53:13-51
+activity#laiyi.tobacco.activity.MyWebActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:55:9-57:48
+	android:label
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:57:13-45
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:56:13-51
+activity#laiyi.tobacco.activity.SelectorCity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:58:9-59
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:58:19-56
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:60:9-62:56
+	android:value
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:62:13-53
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:61:13-52
+activity#me.iwf.photopicker.PhotoPickerActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:64:9-66:46
+	android:theme
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:66:13-43
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:65:13-66
+activity#me.iwf.photopicker.PhotoPagerActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:67:9-69:66
+	android:theme
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:68:13-65
+activity#laiyi.tobacco.activity.ListViewActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:70:9-63
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:70:19-60
+activity#laiyi.tobacco.activity.DetailActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:71:9-61
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:71:19-58
+activity#laiyi.tobacco.activity.MyTaskActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:72:9-61
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:72:19-58
+activity#laiyi.tobacco.activity.MapActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:73:9-58
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:73:19-55
+activity#laiyi.tobacco.activity.MapManageActivity
+ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:76:13-62
+	android:name
+		ADDED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml:75:13-55
+uses-sdk
+INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Lbsq-master:PhotoPicker:unspecified] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\Lbsq-master\PhotoPicker\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [:swipeback:] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\swipeback\AndroidManifest.xml:7:5-9:41
+MERGED from [:dialog:] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\dialog\AndroidManifest.xml:8:5-10:41
+MERGED from [Lbsq-master:MyLibrary:unspecified] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\Lbsq-master\MyLibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.1] E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml
+		INJECTED from E:\GitHub\MyCode\Lbsq-master\Tobacco\src\main\AndroidManifest.xml

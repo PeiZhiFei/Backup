@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemlist_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/decorder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/main_red_color" />
+
+        <include
+            android:id="@+id/layout"
+            layout="@layout/include_actionbar_search" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+<!--             <com.runkun.lbsq.view.FlowLayout -->
+<!--                 android:id="@+id/flowlayout" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:animateLayoutChanges="true"/> -->
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include 
+        android:id="@+id/inc_shopcart"
+        layout="@layout/bottom_shopcart"
+        android:visibility="gone" />"
+
+</RelativeLayout>

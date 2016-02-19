@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#efeff4"
+              android:animateLayoutChanges="true"
+              android:orientation="vertical" >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_actionbar" />
+
+    <!-- <com.runkun.lbsq.test.util.OverScrollView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <com.runkun.lbsq.test.util.MyListView -->
+    <!-- android:id="@+id/listview" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" /> -->
+    <!-- </com.runkun.lbsq.test.util.OverScrollView> -->
+
+    <ExpandableListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1px"
+        android:gravity="center" />
+
+</LinearLayout>

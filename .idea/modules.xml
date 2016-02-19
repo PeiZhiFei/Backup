@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lbsq-master.iml" filepath="$PROJECT_DIR$/Lbsq-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LbsqApp/LbsqApp.iml" filepath="$PROJECT_DIR$/LbsqApp/LbsqApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LbsqBusiness/LbsqBusiness.iml" filepath="$PROJECT_DIR$/LbsqBusiness/LbsqBusiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LbsqBusiness2/LbsqBusiness2.iml" filepath="$PROJECT_DIR$/LbsqBusiness2/LbsqBusiness2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyLibrary/MyLibrary.iml" filepath="$PROJECT_DIR$/MyLibrary/MyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" filepath="$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocialInsurance/SocialInsurance.iml" filepath="$PROJECT_DIR$/SocialInsurance/SocialInsurance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tobacco/Tobacco.iml" filepath="$PROJECT_DIR$/Tobacco/Tobacco.iml" />
+    </modules>
+  </component>
+</project>

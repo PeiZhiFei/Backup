@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_green"/>
+
+    <feifei.project.view.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_green">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/login"
+            app:layout_heightPercent="12%"
+            app:layout_marginTopPercent="10%h"
+            />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/member"
+            style="@style/LoginEditText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/login_user"
+            android:hint="请输入账号"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/white"
+            android:imeOptions="actionNext"
+            app:layout_heightPercent="9%"
+            app:layout_marginTopPercent="30%h"
+            app:layout_widthPercent="80%"
+
+            />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/password"
+            style="@style/LoginEditText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawableLeft="@drawable/login_pass"
+            android:hint="请输入密码"
+            android:textColorHint="@color/lightgray"
+            android:textColor="@color/white"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            app:layout_heightPercent="9%"
+            app:layout_marginTopPercent="44%h"
+            app:layout_widthPercent="80%"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/asheet_bt_single"
+            android:text="登录"
+            android:textColor="@color/main_green"
+            android:textSize="20sp"
+            app:layout_heightPercent="9%"
+            app:layout_marginTopPercent="60%h"
+            app:layout_widthPercent="80%"/>
+
+        <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="忘记登录密码"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_heightPercent="6%"
+            app:layout_marginTopPercent="72%h"
+            app:layout_widthPercent="50%"
+            />
+
+
+    </feifei.project.view.percent.PercentRelativeLayout>
+</LinearLayout>

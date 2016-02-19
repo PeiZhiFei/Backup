@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="#00000000"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/group_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/city_child_selector"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/child_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="1"
+            android:textColor="@color/darkgray2"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/layout/item_cityselect_child_.xml -->

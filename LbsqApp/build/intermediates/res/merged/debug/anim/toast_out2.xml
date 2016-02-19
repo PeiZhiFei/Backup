@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="250"
+    android:fromYDelta="0"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:toYDelta="-100.0%" /><!-- From: file:/E:/Git/Lbsq/Project/src/main/res/anim/toast_out2.xml --><!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/anim/toast_out2.xml -->

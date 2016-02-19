@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/itemlist_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9eae9"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_statuebar"/>
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/actionbar_custom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e9eae9"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_allcheck"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/checkbox_style"
+            android:button="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/cb_allcheck"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@id/cb_allcheck"
+            android:text="@string/choose_all"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_chanagealert"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/cb_allcheck"
+            android:layout_below="@id/cb_allcheck"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/checkbox_style"
+            android:button="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/cb_chanagealert"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@id/cb_chanagealert"
+            android:text="@string/changealert_msg"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_paybill"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/cb_allcheck"
+            android:layout_below="@id/cb_chanagealert"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/checkbox_style"
+            android:button="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/cb_paybill"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@id/cb_paybill"
+            android:text="@string/paybill_msg"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/bt_choose"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/cb_paybill"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/bind_button"
+            android:gravity="center"
+            android:text="@string/choose"/>
+
+    </RelativeLayout>
+</LinearLayout>

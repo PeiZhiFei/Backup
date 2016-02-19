@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.widget.WaveSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <feifei.project.view.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightgray"
+        android:orientation="vertical">
+
+        <feifei.project.view.percent.PercentRelativeLayout
+            android:id="@+id/top_layout"
+            style="@style/percent"
+            android:layout_width="match_parent"
+            android:background="@color/main_green"
+            app:layout_heightPercent="40%h">
+
+            <TextView
+                android:id="@+id/shop_name"
+                style="@style/percent"
+                android:layout_centerHorizontal="true"
+                android:text="超市名称"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_marginTopPercent="5%h" />
+
+            <feifei.project.view.percent.PercentRelativeLayout
+                style="@style/percent"
+                android:layout_below="@+id/shop_name"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/home_gray"
+                app:layout_heightPercent="55%"
+                app:layout_marginTopPercent="15%h"
+                app:layout_widthPercent="80%">
+
+                <TextView
+                    android:id="@+id/submit"
+                    style="@style/percent"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/home_left"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="今日营业额统计"
+                    android:textColor="@color/main_green"
+                    android:textSize="16sp"
+                    app:layout_marginLeftPercent="8%"
+                    app:layout_marginTopPercent="8%" />
+
+                <View
+                    android:id="@+id/top_line"
+                    style="@style/percent"
+                    android:layout_width="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/darkgray2"
+                    app:layout_heightPercent="48%"
+                    app:layout_marginBottomPercent="13%h" />
+
+                <TextView
+                    android:id="@+id/dingdanshu"
+                    style="@style/percent"
+                    android:layout_alignTop="@id/top_line"
+                    android:gravity="center_horizontal"
+                    android:text="订单数"
+                    android:textColor="@color/darkgray"
+                    android:textSize="16sp"
+                    app:layout_widthPercent="50%" />
+
+                <TextView
+                    android:id="@+id/jiaoyie"
+                    style="@style/percent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/top_line"
+                    android:gravity="center_horizontal"
+                    android:text="总交易额"
+                    android:textColor="@color/darkgray"
+                    android:textSize="16sp"
+                    app:layout_widthPercent="50%" />
+
+
+                <TextView
+                    android:id="@+id/order_count"
+                    style="@style/percent"
+                    android:layout_alignBottom="@id/top_line"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    app:layout_widthPercent="50%" />
+
+                <TextView
+                    android:id="@+id/submit_money"
+                    style="@style/percent"
+                    android:layout_alignBottom="@id/top_line"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    app:layout_widthPercent="50%" />
+            </feifei.project.view.percent.PercentRelativeLayout>
+        </feifei.project.view.percent.PercentRelativeLayout>
+
+        <feifei.project.view.percent.PercentLinearLayout
+            android:id="@+id/buttons_container"
+            style="@style/percent"
+            android:layout_width="match_parent"
+            android:layout_below="@id/top_layout"
+            android:background="@color/white"
+            android:divider="@drawable/spacer_medium"
+            android:dividerPadding="20dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            app:layout_heightPercent="20%">
+
+            <TextView
+                android:id="@+id/order_submit"
+                style="@style/percent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/asheet_bt_single"
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/item_order"
+                android:gravity="center_horizontal"
+                android:text="订单统计"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goods_manage"
+                style="@style/percent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/asheet_bt_single"
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/item_manage"
+                android:gravity="center_horizontal"
+                android:text="商品管理"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp" />
+
+
+        </feifei.project.view.percent.PercentLinearLayout>
+
+        <feifei.project.view.percent.PercentLinearLayout
+            android:id="@+id/buttons_container2"
+            style="@style/percent"
+            android:layout_width="match_parent"
+            android:layout_below="@id/buttons_container"
+            android:background="@color/white"
+            android:divider="@drawable/spacer_medium"
+            android:dividerPadding="20dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            app:layout_heightPercent="20%">
+
+            <TextView
+                android:id="@+id/judegs"
+                style="@style/percent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/asheet_bt_single"
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/item_judge"
+                android:gravity="center_horizontal"
+                android:text="用户口碑"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/state"
+                style="@style/percent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/asheet_bt_single"
+                android:drawablePadding="8dp"
+                android:drawableTop="@drawable/item_manage"
+                android:gravity="center_horizontal"
+                android:text="实时订单"
+                android:textColor="@color/darkgray"
+                android:textSize="16sp" />
+        </feifei.project.view.percent.PercentLinearLayout>
+
+    </feifei.project.view.percent.PercentRelativeLayout>
+</feifei.project.view.widget.WaveSwipeRefreshLayout>

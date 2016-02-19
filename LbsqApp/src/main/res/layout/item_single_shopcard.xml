@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/width_match_parent"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <CheckBox
+            android:id="@+id/single_good_select"
+            style="@style/WrapContent"
+            android:button="@drawable/check_bg" />
+
+        <ImageView
+            android:id="@+id/good_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/add_card"
+            android:src="@drawable/zhanwei" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/good_name"
+                style="@style/WrapContent"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#515151"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                style="@style/width_match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/WrapContent"
+                    android:text="@string/pricelabel"
+                    android:textColor="@color/red"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    style="@style/WrapContent"
+                    android:textColor="@color/red"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/width_match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffff" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/WrapContent"
+                        android:text="@string/count"
+                        android:textColor="#515151"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/count"
+                        style="@style/WrapContent"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <include 
+                    android:id="@+id/counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    layout="@layout/include_counter" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

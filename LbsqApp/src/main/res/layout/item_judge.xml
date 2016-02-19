@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/include_judge"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <feifei.project.view.smartimage.SmartImageView
+            android:id="@+id/judge_photo_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/judge_user_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxEms="10"
+            android:ellipsize="end"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/judge_photo_img"
+            android:textColor="@color/darkgray"/>
+
+        <RatingBar
+            android:id="@+id/rationbar"
+            style="@style/judgeRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/judge_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/darkgray2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/judge_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center_vertical"
+    android:background="#ffffff"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/shape_circle_green"
+        android:drawablePadding="10dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:text="馒头馒头馒头馒头馒头馒头馒头"
+        android:textColor="@color/darkgray"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:text="￥123.22"
+        android:textColor="@color/darkgray"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:gravity="center_vertical"
+        android:text="x 100"
+        android:textColor="@color/darkgray"/>
+
+</RelativeLayout>
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/item_order_det.xml -->

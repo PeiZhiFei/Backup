@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feifei.library.refreshview.view.RefreshScrollView
+    style="@style/width_height_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fragment0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</feifei.library.refreshview.view.RefreshScrollView>
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_first.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="nav_pressed">#ffACD3FF</color>
+    <color name="nav_selected">#ff3399cc</color>
+    <color name="pressed">#006666</color>
+
+    <!-- 自定义listview -->
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+
+</resources>

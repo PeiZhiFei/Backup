@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res"><file name="toast_in" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\anim\toast_in.xml" qualifiers="" type="anim"/><file name="toast_in2" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\anim\toast_in2.xml" qualifiers="" type="anim"/><file name="toast_out" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\anim\toast_out.xml" qualifiers="" type="anim"/><file name="toast_out2" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\anim\toast_out2.xml" qualifiers="" type="anim"/><file name="toast_dark" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\drawable\toast_dark.xml" qualifiers="" type="drawable"/><file name="edittext_green" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\drawable-xhdpi\edittext_green.png" qualifiers="xhdpi" type="drawable"/><file name="edittext_pressed" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\drawable-xhdpi\edittext_pressed.png" qualifiers="xhdpi" type="drawable"/><file name="nodata" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\drawable-xhdpi\nodata.png" qualifiers="xhdpi" type="drawable"/><file name="dialog" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\layout\dialog.xml" qualifiers="" type="layout"/><file name="newton_cradle_loading" path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\layout\newton_cradle_loading.xml" qualifiers="" type="layout"/><file path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CradleBall">
+        <attr format="color" name="loading_color"/>
+        <attr format="string" name="loading_text"/>
+    </declare-styleable><declare-styleable name="ClearEditText">
+        <attr format="reference" name="right_image"/>
+    </declare-styleable><declare-styleable name="PercentLayout_Layout">
+        <attr format="string" name="layout_widthPercent"/>
+        <attr format="string" name="layout_heightPercent"/>
+        <attr format="string" name="layout_marginPercent"/>
+        <attr format="string" name="layout_marginLeftPercent"/>
+        <attr format="string" name="layout_marginTopPercent"/>
+        <attr format="string" name="layout_marginRightPercent"/>
+        <attr format="string" name="layout_marginBottomPercent"/>
+        <attr format="string" name="layout_marginStartPercent"/>
+        <attr format="string" name="layout_marginEndPercent"/>
+        <attr format="string" name="layout_textSizePercent"/>
+        <attr format="string" name="layout_maxWidthPercent"/>
+        <attr format="string" name="layout_maxHeightPercent"/>
+        <attr format="string" name="layout_minWidthPercent"/>
+        <attr format="string" name="layout_minHeightPercent"/>
+    </declare-styleable><declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsDividerWidth"/>
+        <attr format="dimension" name="pstsDividerPadding"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsPaddingMiddle"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        <attr format="dimension" name="pstsTabTextSize"/>
+        <attr format="reference" name="pstsTabTextColor"/>
+        <attr format="reference" name="pstsTabTextStyle">
+            <flag name="normal" value="0x0"/>
+            <flag name="bold" value="0x1"/>
+            <flag name="italic" value="0x2"/>
+        </attr>
+        <attr format="boolean" name="pstsTabTextAllCaps"/>
+        <attr format="integer" name="pstsTabTextAlpha"/>
+        <attr format="string" name="pstsTabTextFontFamily"/>
+    </declare-styleable></file><file path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\values\colors.xml" qualifiers=""><color name="lightgray2">#50dededc</color><color name="orangepressed">#50FF8e56</color><color name="red_pressed">#50ff5757</color><color name="main_green_pressed">#5039ac69</color><color name="brown">#9575cd</color><color name="reds">#ff5757</color><color name="youlan">#ff6a46</color><color name="pink">#01a8a8</color><color name="deep_red">#80d61212</color><color name="colorPrimary">#71c7c4</color><color name="transparent">#01000000</color><color name="city_color">#E5E5E5</color><color name="halftransparent">#e0000000</color><color name="brown2">#eeb7f4</color><color name="bluelogin">#00bfd4</color><color name="brown3">#8e048c</color><color name="background_window">#FFE5E5E5</color><color name="green">#689F38</color><color name="line_gray">#9e9a9b</color><color name="blue">#0b6aff</color><color name="orange">#f48f5c</color><color name="backgroundgray">#efeee9</color><color name="greenDark">#3E5F22</color><color name="white">#FFFFFF</color><color name="lightgray">#dededc</color><color name="banana">#FFCC00</color><color name="darkgray">#666666</color><color name="s3">#fec052</color><color name="s4">#fe6d52</color><color name="s5">#fe3cb5</color><color name="s6">#b654fe</color><color name="s1">#6a9cfe</color><color name="black">#000000</color><color name="s2">#25ba51</color><color name="pink_pressed">#5000cccc</color><color name="red2">#db6c60</color><color name="black2">#f707252b</color><color name="main_green">#39ac69</color><color name="toast_color">#ff2E76B9</color><color name="origianlprice">#2edad8</color><color name="light_green">#7fac7c</color><color name="red">#db4141</color><color name="city_color_pressed">#50E5E5E5</color><color name="brown_pressed">#509575cd</color><color name="yellow">#f29901</color><color name="mainblack">#333333</color><color name="blueness">#60d5c3</color><color name="blue2">#500b6aff</color><color name="lightred">#EB3C00</color><drawable name="transparent">#01000000</drawable><color name="deep_orange">#d34545</color><color name="darkgray2">#999999</color><color name="yolk">#feefab</color></file><file path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\main\res\values\strings.xml" qualifiers=""><style name="dialog_loading_style" parent="dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style><string name="app_name">MyLibrary</string><style name="percent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="dialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style></file></source><source path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\build\generated\res\rs\release"/><source path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\build\generated\res\resValues\release"/></dataSet><dataSet config="release"><source path="E:\GitHub\MyCode\Lbsq-master\MyLibrary\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PercentLayout_Layout"><attr format="string" name="layout_widthPercent"/><attr format="string" name="layout_heightPercent"/><attr format="string" name="layout_marginPercent"/><attr format="string" name="layout_marginLeftPercent"/><attr format="string" name="layout_marginTopPercent"/><attr format="string" name="layout_marginRightPercent"/><attr format="string" name="layout_marginBottomPercent"/><attr format="string" name="layout_marginStartPercent"/><attr format="string" name="layout_marginEndPercent"/><attr format="string" name="layout_textSizePercent"/><attr format="string" name="layout_maxWidthPercent"/><attr format="string" name="layout_maxHeightPercent"/><attr format="string" name="layout_minWidthPercent"/><attr format="string" name="layout_minHeightPercent"/></declare-styleable><declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="color" name="pstsUnderlineColor"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsDividerWidth"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsScrollOffset"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsPaddingMiddle"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="reference" name="pstsTabBackground"/><attr format="dimension" name="pstsTabTextSize"/><attr format="reference" name="pstsTabTextColor"/><attr format="reference" name="pstsTabTextStyle"><flag name="normal" value="0x0"/><flag name="bold" value="0x1"/><flag name="italic" value="0x2"/></attr><attr format="boolean" name="pstsTabTextAllCaps"/><attr format="integer" name="pstsTabTextAlpha"/><attr format="string" name="pstsTabTextFontFamily"/></declare-styleable><declare-styleable name="CradleBall"><attr format="color" name="loading_color"/><attr format="string" name="loading_text"/></declare-styleable><declare-styleable name="ClearEditText"><attr format="reference" name="right_image"/></declare-styleable></configuration></mergedItems></merger>

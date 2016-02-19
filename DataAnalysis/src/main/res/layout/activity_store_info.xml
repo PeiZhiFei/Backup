@@ -1,0 +1,87 @@
+<feifei.project.view.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/reds"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:scrollbars="none">
+
+        <feifei.project.view.percent.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/table_title"
+                android:text="7天订单总数和金额折线图" />
+
+            <FrameLayout
+                android:id="@+id/fragment1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="50%h" />
+
+
+            <TextView
+                style="@style/table_title"
+                android:text="30天订单总数和金额趋势图" />
+
+            <FrameLayout
+                android:id="@+id/fragment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="50%h" />
+
+            <FrameLayout
+                android:id="@+id/fragment3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="60%h" />
+
+            <FrameLayout
+                android:id="@+id/fragment4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="60%h" />
+
+            <FrameLayout
+                android:id="@+id/fragment5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="190%h" />
+
+            <FrameLayout
+                android:id="@+id/fragment6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="190%h" />
+        </feifei.project.view.percent.PercentLinearLayout>
+    </ScrollView>
+</feifei.project.view.percent.PercentLinearLayout>

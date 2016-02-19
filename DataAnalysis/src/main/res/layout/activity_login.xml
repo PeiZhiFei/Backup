@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:background="@color/white"
+                                                 android:gravity="center_horizontal"
+                                                 android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_image"
+        app:layout_marginTopPercent="20%h"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用数据报表"
+        android:textColor="#71c7c4"
+        android:textSize="20sp"
+        app:layout_marginTopPercent="5%h"/>
+
+    <feifei.project.view.ClearEditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/login_border"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="请输入密钥"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:textColor="#2c97b5"
+        android:textColorHint="@color/darkgray2"
+        android:textSize="18sp"
+        app:layout_marginTopPercent="5%h"
+        app:layout_widthPercent="70%w"
+        app:right_image="@drawable/edittext_green"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="登录"
+        android:textColor="@color/white"
+        app:layout_marginTopPercent="5%h"
+        app:layout_widthPercent="70%w"/>
+
+</feifei.project.view.percent.PercentLinearLayout>

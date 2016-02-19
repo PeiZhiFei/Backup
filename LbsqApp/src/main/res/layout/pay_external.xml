@@ -1,0 +1,357 @@
+<LinearLayout
+    style="@style/width_height_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/pay_ali"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="@string/good_name"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/good_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="5dp"
+            android:editable="false"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="@string/good_describe"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/good_describe"
+            style="@style/WrapContent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:editable="false"
+            android:hint="@string/good_describe_hint"
+            android:paddingLeft="8dp"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="@string/should_money"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/good_money"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="5dp"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="积分抵扣金额:"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/scored_moneyv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="5dp"
+            android:text="￥0"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="优惠券:"
+            android:textColor="#ff0000"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/red_money"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:background="@null"
+            android:padding="5dp"
+            android:text="0张可用优惠券"
+            android:textColor="@color/lightgray"
+            android:textSize="14sp"/>
+
+        <ImageButton
+            android:id="@+id/sel_coupon_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_right_bn"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="运费:"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/fare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="5dp"
+            android:text="￥0"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            style="@style/WrapContent"
+            android:paddingLeft="10dp"
+            android:text="应付金额:"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/mony"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="5dp"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#cfced2"/>
+
+    <LinearLayout
+        style="@style/width_match_parent_wihte"
+        android:gravity="center_vertical"
+
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/is_scored"-->
+            <!--style="@style/width_match_parent_wihte"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:visibility="gone">-->
+
+            <!--<TextView-->
+                <!--style="@style/WrapContent"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="@string/use_scored"-->
+                <!--android:textColor="@drawable/darkgray"-->
+                <!--android:textSize="15sp"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/scored"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@drawable/red"-->
+                <!--android:textSize="14sp"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/is_scoreds"-->
+            <!--style="@style/width_match_parent_wihte"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:visibility="gone">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/use_scored"-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:background="@drawable/gray_shape_rect"-->
+                <!--android:hint="@string/scored_hint"-->
+                <!--android:inputType="number"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="14sp"/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/scored_money"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:background="@drawable/button_green"-->
+                <!--android:onClick="pay"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:paddingRight="5dp"-->
+                <!--android:text="@string/scored_money"-->
+                <!--android:textColor="@drawable/text_white_red_click"-->
+                <!--android:textSize="14dp"/>-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/isRePackage"
+            style="@style/width_match_parent_wihte"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/WrapContent"
+                android:padding="10dp"
+                android:text="@string/use_redpackage_hint"
+                android:textColor="@color/red"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/red_package"
+                style="@style/WrapContent"
+                android:contentDescription="@string/register"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pay"
+        style="@style/width_match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_green"
+        android:padding="10dp"
+        android:text="@string/pay_now"
+        android:textColor="@drawable/text_white_red_click"/>
+
+</LinearLayout>

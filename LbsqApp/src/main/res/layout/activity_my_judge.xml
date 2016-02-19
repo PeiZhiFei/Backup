@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color" />
+
+    <include layout="@layout/include_actionbar" />
+
+    <feifei.project.view.swipmenu.SwipeMenuListView
+        android:id="@+id/judge_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/lightgray"
+        android:dividerHeight="1px" />
+
+</LinearLayout>

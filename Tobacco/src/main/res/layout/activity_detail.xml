@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feifei.library.view.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                app:layout_heightPercent="30%h">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_green"
+                    android:text="选择图片"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/detail_line"
+                app:layout_widthPercent="90%"/>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="地块名称:"/>
+
+                <feifei.library.view.ClearEditText
+                    android:id="@+id/et_name"
+                    style="@style/detail_et"
+                    android:hint="请输入地块名称"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="地块地址:"/>
+
+                <feifei.library.view.ClearEditText
+                    android:id="@+id/et_address"
+                    style="@style/detail_et"
+                    android:hint="请输入地块地址"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="地块面积:"/>
+
+                <feifei.library.view.ClearEditText
+                    android:id="@+id/et_area"
+                    style="@style/detail_et"
+                    android:hint="请输入地块面积"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="海拔:"/>
+
+                <feifei.library.view.ClearEditText
+                    android:id="@+id/et_haiba"
+                    style="@style/detail_et"
+                    android:hint="请输入海拔"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <View
+                style="@style/detail_line"
+                app:layout_widthPercent="90%"/>
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="经纬度信息:"/>
+
+                <TextView
+                    android:id="@+id/tv_gps"
+                    style="@style/detail_et"
+                    android:drawableRight="@drawable/arrow"
+                    android:hint="请选择地点"/>
+            </LinearLayout>
+
+
+            <View
+                style="@style/detail_line"
+                app:layout_widthPercent="90%"/>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="地块类型:"/>
+
+                <Spinner
+                    android:id="@+id/sp_landtype"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="土壤类型:"/>
+
+                <Spinner
+                    android:id="@+id/sp_soiltype"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="地块特征:"/>
+
+                <Spinner
+                    android:id="@+id/sp_landfeature"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="土壤肥力:"/>
+
+                <Spinner
+                    android:id="@+id/sp_soilfertility"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="烟叶类型:"/>
+
+                <Spinner
+                    android:id="@+id/sp_tobaccotype"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="烟叶品种:"/>
+
+                <Spinner
+                    android:id="@+id/sp_tobaccobreed"
+                    style="@style/detail_sp"/>
+            </LinearLayout>
+
+            <View
+                style="@style/detail_line"
+                app:layout_widthPercent="90%"/>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="烟水工程配套:"/>
+
+                <CheckBox
+                    android:id="@+id/cb_waterexist"
+                    style="@style/detail_cb"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/detail_layout">
+
+                <TextView
+                    style="@style/detail_left"
+                    android:text="烟水工程状态:"/>
+
+                <CheckBox
+                    android:id="@+id/cb_waterstate"
+                    style="@style/detail_cb"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</feifei.library.view.percent.PercentLinearLayout>

@@ -1,0 +1,123 @@
+<feifei.library.view.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <feifei.library.view.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout1"
+            style="@style/percent_layout"
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="烟地落实"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout2"
+            style="@style/percent_layout"
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="栽前准备"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout3"
+            style="@style/percent_layout"
+
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="育苗移栽"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout4"
+            style="@style/percent_layout"
+
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="田间管理"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+    </feifei.library.view.percent.PercentLinearLayout>
+
+    <feifei.library.view.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout5"
+            style="@style/percent_layout"
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="烟叶烘烤"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout6"
+            style="@style/percent_layout"
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="烟叶收购"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout7"
+            style="@style/percent_layout"
+
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="地图管理"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+
+        <feifei.library.view.percent.PercentLinearLayout
+            android:id="@+id/layout8"
+            style="@style/percent_layout"
+
+            app:layout_heightPercent="20%w"
+            app:layout_widthPercent="20%w">
+
+            <TextView
+                style="@style/percent_text"
+                android:text="工作任务"/>
+        </feifei.library.view.percent.PercentLinearLayout>
+    </feifei.library.view.percent.PercentLinearLayout>
+
+</feifei.library.view.percent.PercentLinearLayout>
+<!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/layout/fragment_blank.xml -->

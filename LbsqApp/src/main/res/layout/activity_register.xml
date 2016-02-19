@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/width_height_match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_actionbar" />
+
+    <feifei.project.view.OverScrollView
+        style="@style/width_height_match_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/registerpage"
+            style="@style/width_height_match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/width_match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gary_corner_border"
+                android:orientation="horizontal"
+                android:padding="8dp" >
+
+                <!-- <TextView -->
+                <!-- android:layout_width="80dp" -->
+                <!-- android:layout_height="30dp" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="@string/phone" -->
+                <!-- android:textColor="@drawable/darkgray" -->
+                <!-- android:textSize="15sp" /> -->
+
+                <feifei.project.view.ClearEditText
+                    android:id="@+id/phone"
+                    style="@style/register_edittext"
+                    android:hint="手机号"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/verifylayout"
+                style="@style/width_match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gary_corner_border"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dp" >
+
+                <!-- <TextView -->
+                <!-- android:layout_width="80dp" -->
+                <!-- android:layout_height="30dp" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="@string/verification" -->
+                <!-- android:textColor="@drawable/darkgray" -->
+                <!-- android:textSize="15sp" /> -->
+
+                <cfeifei.project.view.ClearEditText
+                    android:id="@+id/verification"
+                    style="@style/register_edittext"
+                    android:layout_weight="1"
+                    android:hint="验证码"
+                    android:imeOptions="actionNext" />
+
+                <Button
+                    android:id="@+id/re_verification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_green"
+                    android:padding="5dp"
+                    android:text="@string/req_verifcation"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/width_match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gary_corner_border"
+                android:orientation="horizontal"
+                android:padding="8dp" >
+
+                <!-- <TextView -->
+                <!-- android:layout_width="80dp" -->
+                <!-- android:layout_height="30dp" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="@string/pass" -->
+                <!-- android:textColor="@drawable/darkgray" -->
+                <!-- android:textSize="15sp" /> -->
+
+                <feifei.project.view.ClearEditText
+                    android:id="@+id/pass"
+                    style="@style/register_edittext"
+                    android:hint="@string/pass_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/width_match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gary_corner_border"
+                android:orientation="horizontal"
+                android:padding="8dp" >
+
+                <!-- <TextView -->
+                <!-- android:layout_width="80dp" -->
+                <!-- android:layout_height="30dp" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="@string/rpass" -->
+                <!-- android:textColor="@drawable/darkgray" -->
+                <!-- android:textSize="15sp" /> -->
+
+                <feifei.project.view.ClearEditText
+                    android:id="@+id/rpass"
+                    style="@style/register_edittext"
+                    android:hint="@string/rpass_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/register"
+                style="@style/width_match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button_green"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </feifei.project.view.OverScrollView>
+
+</LinearLayout>

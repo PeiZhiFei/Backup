@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <View
+        style="@style/width_match_parent"
+        android:layout_height="1px"
+        android:background="@color/lightgray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/good_img"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/add_card"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/good_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#515151"
+                android:textSize="15sp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:paddingTop="5dp">
+
+                <ImageButton
+                    android:id="@+id/sub"
+                    style="@style/WrapContent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/counter_minus"
+                    android:contentDescription="@string/add_card"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:id="@+id/newcount"
+                    style="@style/WrapContent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/gray_shape_rect"
+                    android:minWidth="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"/>
+
+                <ImageButton
+                    android:id="@+id/add"
+                    style="@style/WrapContent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/counter_plus"
+                    android:contentDescription="@string/address_deail_hint"
+                    android:scaleType="center"
+                    android:textColor="@color/red"/>
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WrapContent"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/pricelabel"
+                    android:textColor="@color/red"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textSize="12sp"/>
+
+                <ImageButton
+                    android:id="@+id/fruitshopcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shop_card"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

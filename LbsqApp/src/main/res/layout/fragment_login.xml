@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.OverScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/loginpage"
+        style="@style/width_height_match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            style="@style/width_match_parent"
+            android:layout_below="@id/actionbar"
+            android:layout_gravity="center"
+            android:background="@drawable/login_background"
+            android:gravity="center" />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/phone"
+            style="@style/width_match_parent"
+            android:layout_below="@id/actionbar"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#eae8e9"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:hint="请输入手机号"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/darkgray"
+            android:textColorHint="@color/darkgray2"
+            android:textSize="16sp" />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/pass"
+            style="@style/width_match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#eae8e9"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:hint="@string/pass_hint"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/darkgray"
+            android:textColorHint="@color/darkgray2"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            style="@style/width_match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/register"
+                style="@style/WrapContent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="@string/free_register"
+                android:textColor="@drawable/text_green_gray_click"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/forget_pass"
+                style="@style/WrapContent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="@string/forget_login_pass"
+                android:textColor="@drawable/text_green_gray_click"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login"
+            style="@style/width_match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_red"
+            android:padding="10dp"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</feifei.project.view.OverScrollView>

@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="LoginEditText">
+        <item name="android:background">@drawable/wihte_stroke</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="register_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkgray</item>
+        <item name="android:textColorHint">@color/darkgray2</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="width_match_parent_wihte" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="width_match_parent" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="width_height_match_parent" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="judgeRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bg</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+    </style>
+
+    <style name="dialog_bottom_style" parent="dialog_style">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/popup_anim</item>
+    </style>
+
+    <style name="popup_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+
+    <style name="include_order_info_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="include_order_info">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="include_order_info_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>

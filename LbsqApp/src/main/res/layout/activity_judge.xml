@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include_actionbar" />
+
+    <feifei.project.view.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="10dp" >
+
+                <feifei.project.view.smartimage.SmartImageView
+                    android:id="@+id/good_img"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/shop_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/good_img"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/darkgray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/good_name"
+                    style="@style/WrapContent"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:maxEms="10"
+                    android:layout_alignLeft="@id/shop_name"
+                    android:layout_below="@id/shop_name"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/darkgray2" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray" />
+
+            <com.runkun.lbsq.view.RatingBarView
+                android:id="@+id/ratingbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.runkun.lbsq.view.RatingTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/qianbi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/address_mark" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/qianbi"
+                    android:background="@color/lightgray" />
+
+                <EditText
+                    android:id="@+id/edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/view"
+                    android:background="#00000000"
+                    android:hint="商品怎么样，服务是否周到"
+                    android:padding="10dp"
+                    android:textColorHint="@color/lightgray"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="亲，您的评价对我们来说都是宝贵的建议哦！"
+                android:textColor="@color/darkgray"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#50A8A8A8" />
+
+            <!-- <Button -->
+            <!-- android:id="@+id/complete" -->
+            <!-- android:layout_width="200dp" -->
+            <!-- android:layout_height="50dp" -->
+            <!-- android:layout_gravity="center" -->
+            <!-- android:layout_marginBottom="30dp" -->
+            <!-- android:layout_marginTop="30dp" -->
+            <!-- android:background="@drawable/button_green" -->
+            <!-- android:gravity="center" -->
+            <!-- android:text="保存" -->
+            <!-- android:textColor="@drawable/white" /> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/complete"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green"
+                    android:text="@string/save"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/voice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_oranger"
+                    android:text="语音输入"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </feifei.project.view.OverScrollView>
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主页的标签 -->
+    <string name="app_name">零步社区</string>
+    <string name="change_supermatkey">切换超市</string>
+    <string name="contact_supermatkey">联系超市</string>
+    <string name="divide_type">分类</string>
+    <string name="serch_goods">请搜索商品</string>
+    <string name="serch_shop">请搜索超市</string>
+    <string name="mainneu1">切换超市</string>
+    <string name="mainneu2">联系超市</string>
+    <string name="mainneu3">联系客服</string>
+    <string name="mainneu4">优惠券</string>
+    <string name="shop">超市</string>
+    <string name="my">我的</string>
+    <string name="more">更多</string>
+    <string name="price">3.0</string>
+    <string name="pricelabel">价格:</string>
+    <string name="goodtype">商品分类</string>
+    <string name="shopcard">购物车</string>
+    <string name="send_min">起送价格</string>
+    <string name="send_scope">送货范围</string>
+    <string name="confirm">确定</string>
+    <string name="summoeny">合计:</string>
+    <string name="should_money">订单金额:</string>
+    <string name="good_name">商品名称:</string>
+    <string name="good_describe">商品描述:</string>
+    <string name="use_redpackage_hint">单击红包图片使用红包</string>
+    <string name="good_describe_hint">请简单描述您购买商品做为支付宝的购物凭证</string>
+    <string name="forget_login_pass">忘记登录密码</string>
+    <!-- 商品列表的标签 -->
+    <string name="buy_now">立即购买</string>
+    <string name="dishplay_all">显示更多</string>
+    <string name="del">删除</string>
+    <string name="pay_money">支付金额:</string>
+
+    <!-- 我的 -->
+    <string name="my_address">收货地址</string>
+    <string name="my_shop_card">我的购物车</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="register">用户注册</string>
+    <string name="free_register">免费注册</string>
+    <string name="purchased">已购买商品</string>
+    <string name="login">用户登录</string>
+    <string name="my_exit">退出</string>
+    <!-- 商品详细 -->
+    <string name="price_unit">单价:</string>
+    <string name="add_card">添加到购物车</string>
+    <string name="pay_now">立即付款</string>
+    <string name="explain">说明:</string>
+    <string name="time_send_good">20分钟送货到门</string>
+    <string name="count">数量:</string>
+    <string name="count_label">数量:</string>
+    <string name="guess_like">猜您喜欢</string>
+    <!-- 用户注册页面 -->
+    <string name="phone">手&#160;&#160;机&#160;&#160;号:</string>
+    <string name="register_phone_hint">请填写正确的手机号</string>
+    <string name="register_verfication_hint">请输入手机验证码</string>
+    <string name="verification">验&#160;&#160;证&#160;&#160;码:</string>
+    <string name="pass">密&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="pass_hint">请输入密码</string>
+    <string name="rpass">确认密码:</string>
+    <string name="rpass_hint">再次输入密码</string>
+    <string name="req_verifcation">获取验证码</string>
+
+    <!-- 添加地址 -->
+    <string name="save">保存</string>
+    <string name="name_hint">收货人</string>
+    <string name="phone_hint">手机号</string>
+    <string name="address_p_c_r_hint">收货地址  省/市/区或县</string>
+    <string name="address_r_hint">收货地址</string>
+    <string name="address_deail_hint">备注</string>
+    <!-- 商品评价 -->
+    <string name="clearing">结算</string>
+    <string name="comment">评论</string>
+    <string name="rpoor">差</string>
+    <string name="rcommon">一般</string>
+    <string name="rsatisfy">满意</string>
+    <string name="rvsatisfy">非常满意</string>
+    <string name="rperfect">"无可挑剔"</string>
+    <!-- 支付相关标签 -->
+    <string name="app_tip">正在支付</string>
+    <string name="getting_prepayid">正在支付,请耐心等候</string>
+
+    <!-- 搜索 -->
+    <string name="search_hint">请输入超市名或商品名称 ~</string>
+    <string name="jinanshi">济南市</string>
+    <string name="complete">完成</string>
+    <string name="plelogin">先登录一下吧～</string>
+
+
+    <string name="ADSADD">正在添加地址……</string>
+    <string name="ADSEDITSUCCESS">编辑成功</string>
+    <string name="ADSEDITFAIL">编辑失败</string>
+    <string name="ADSADDSUCCESS">添加成功</string>
+    <string name="ADSADDFAIL">添加失败</string>
+    <string name="ADSEXIST">该地址已存在</string>
+    <string name="ADSALREADYDEF">这一条已经是默认地址了</string>
+    <string name="ADSSETTING">正在设置默认地址……</string>
+    <string name="ADSORDER">排序中</string>
+
+    <!-- 评价 -->
+    <string name="PLEASEJUDGE">请先给个评分吧</string>
+    <string name="PLEASEWRITE">请输入一点内容吧</string>
+    <string name="JUDGECOMMIT">提交中……</string>
+    <string name="JUDGESUCCESS">评价成功</string>
+    <string name="JUDGEFAIL">评价失败，请重试</string>
+    <string name="NOJUDGE">该商品尚无评价</string>
+
+    <!-- 我的相关 -->
+    <string name="BUYPAYYES">已支付</string>
+    <string name="BUYPAYNO">未支付</string>
+    <string name="FAVGOODS">商品收藏</string>
+    <string name="FAVSHOPS">商户收藏</string>
+    <string name="NOJUDGE2">暂无评价</string>
+    <string name="NOJIFEN">暂无积分</string>
+    <string name="NOFAV">暂无收藏</string>
+    <string name="NOGOODS">暂无商品</string>
+    <string name="NOSHOPS">暂无超市</string>
+    <string name="NOALREADYBUYS">暂无已购买商品</string>
+    <string name="NONOPAYS">暂无未支付商品</string>
+
+    <!-- dialog -->
+    <string name="DTITLE">提示</string>
+    <string name="DDELFAV">确定要清空收藏夹吗？</string>
+    <string name="DDELJUDGE">确定要删除所有评价吗？</string>
+    <string name="CONFIM">确定</string>
+    <string name="CANCEL">取消</string>
+    <string name="EMPTYLOADING">努力加载中……</string>
+    <string name="LOCATING">定位中……</string>
+    <string name="LOCATIONFAIL">定位失败，请手动选择</string>
+    <string name="REQUESTLOGIN">请您先登录后再购买商品</string>
+    <string name="ADAPTERMY">此商品已经全部移除</string>
+
+    <!-- 搜索 -->
+    <string name="SEARCHHINT">请输入关键字搜索吧</string>
+    <string name="SEARCHPLEASE">请输入点内容吧</string>
+    <string name="SEARCHING">搜索中……</string>
+    <string name="SEARCHSHOPHINT">请输入超市名</string>
+    <string name="SEARCHNOMORESHOP">无更多超市</string>
+    <string name="SEARCHNOSHOP">暂无该超市</string>
+    <string name="SEARCHNOMOREGOODS">无更多商品</string>
+    <string name="SEARCHNOGOODS">暂无该商品</string>
+
+    <!-- 收藏 -->
+    <string name="FAVADDSUCCESS">成功添加到我的收藏</string>
+    <string name="FAVADDFAIL">添加到我的收藏失败</string>
+    <string name="FAVFULL">我的收藏数量已满</string>
+    <string name="FAVALREADYHAS">已收藏</string>
+
+    <!-- 标题栏 -->
+    <string name="TADSADD">添加收货地址</string>
+    <string name="TADSEDIT">修改收货地址</string>
+    <string name="TGOODDETAIL">商品详情</string>
+    <string name="TMYJUDGE">我的评价</string>
+    <string name="TJUDGELIST">评价列表</string>
+    <string name="TBUYNOW">确认订单</string>
+    <string name="TMYADS">收货地址</string>
+    <string name="TLOGIN">登录</string>
+    <string name="TREGISTER">注册</string>
+    <string name="TFORGET">忘记密码</string>
+    <string name="TCAGEROTY">商品分类</string>
+    <string name="TSHOPCARD">购物车</string>
+    <string name="TMY">我的</string>
+    <string name="TMYBUY">已购买商品</string>
+    <string name="TMYFAV">我的收藏</string>
+    <string name="TMYSCORE">我的积分</string>
+    <string name="TSHOPLIST">超市列表</string>
+    <string name="TSELECTCITY">选择城市</string>
+    <string name="TPAY">结算</string>
+
+    <!-- 购物车 -->
+    <string name="SHOPCARDADDSUCCESS">成功添加到购物车</string>
+    <string name="SHOPCARDADDFAIL">无法添加到购物车</string>
+    <string name="SHOPCARDFULL">购物车已满</string>
+
+    <!-- 登录 -->
+    <string name="NOLOGIN">您还未登录,单击确定直接登录</string>
+    <string name="PHONEWRONG">手机格式错误，请重新输入</string>
+    <string name="PLEASEUSERNAME">请输入用户名</string>
+    <string name="PLEASEADDRESS">请输入地址</string>
+    <string name="FORGETPASSWORDBUTTON">忘记登录密码?</string>
+    <string name="LOGINING">登录中……</string>
+    <string name="LOGINSUCCESS">成功登录</string>
+    <string name="LOGINFAIL">用户名或密码错误</string>
+
+    <!-- 注册 -->
+    <string name="RSENDSUCCESS">发送成功，请注意查收</string>
+    <string name="RSENDFAIL">发送失败，请重试</string>
+    <string name="RGETTING">请求中……</string>
+    <string name="RREGSITING">注册中……</string>
+    <string name="RGETVERIFY">获取验证码</string>
+    <string name="RREGISTERSUCCESS">注册成功</string>
+    <string name="RSEND">秒后重新发送</string>
+    <string name="RPASSSHORT">密码长度需要大于等于6位数</string>
+    <string name="RPASSNOMATCH">两次密码输入不匹配</string>
+    <string name="RPLEASEVERIFY">请输入验证码</string>
+    <string name="RCHANGESUCCESS">修改密码成功</string>
+    <string name="RCHANGEFAIL">修改密码失败</string>
+    <string name="RERRORALREADYREGSITER">该用户已经注册过了，请重试</string>
+    <string name="RERRORNOREGSITER">该用户并未注册，请先注册</string>
+    <string name="RERRORVERIFY">验证码错误</string>
+    <string name="RERRORALREADYREGSITERLOGIN">该用户已经注册过了，请登录</string>
+
+    <!-- 其他 -->
+    <string name="ERRORCLASSCAST">类转换错误</string>
+    <string name="ADAPTERPRICE">单价：￥</string>
+    <string name="CONCANTWRONG">联系方式有误</string>
+    <string name="NOWAYPRICE">免运费</string>
+    <string name="WAYPRICEBASE">元起送，不满加</string>
+    <string name="WAYPRICEPRICE">元运费</string>
+    <string name="FIRSTNOGOODS">此商店暂无该栏目的上架商品</string>
+    <string name="JSONERROR">数据解析错误</string>
+    <string name="LOADING">加载中</string>
+    <string name="CLICKLOADINGMORE">点击加载更多</string>
+    <string name="NOMORE">暂无更多</string>
+    <string name="ALLLOADED">已加载全部数据</string>
+    <string name="NETERRORCLICK">数据加载超时，点击重试</string>
+    <string name="NETERRORGOING">网络开小差了</string>
+    <string name="DELETING">删除中……</string>
+    <string name="DELSUCCESS">删除成功</string>
+    <string name="DELFAIL">删除失败</string>
+    <string name="GETREDPACKAGE">登陆后可以领取红包哦</string>
+    <string name="DOUBLEQUIT">再按一次退出程序</string>
+    <string name="LEAVEUP">离开</string>
+    <string name="DEFAULTS">默认</string>
+    <string name="NETWORKERROR">网络连接错误</string>
+    <string name="GOODNOMORE">没有更多类别了</string>
+    <string name="CLICKME">点我查看更多分类啊</string>
+    <string name="JUSTSO">就这么多了</string>
+
+    <!-- pay -->
+    <string name="PCOMMITING">正在提交预支付订单</string>
+    <string name="PCREATFAIL">创建预支付订单失败</string>
+    <string name="PRESULT">支付结果</string>
+    <string name="PERROR">支付异常</string>
+    <string name="title_activity_my_web">MyWebActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>

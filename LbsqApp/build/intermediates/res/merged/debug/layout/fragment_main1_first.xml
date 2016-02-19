@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <com.runkun.lbsq.view.OverScrollView -->
+<!-- xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- style="@style/width_height_match_parent" -->
+<!-- android:background="#ffffff" > -->
+<feifei.project.view.SlowScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/width_height_match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- <fragment -->
+        <!-- android:id="@+id/fragment0" -->
+        <!-- android:name="com.runkun.lbsq.fragment.MainAdsFragment" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" /> -->
+
+
+        <!-- <fragment -->
+        <!-- android:id="@+id/fragment1" -->
+        <!-- android:name="com.runkun.lbsq.fragment.FruitShopFragment" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" /> -->
+
+        <FrameLayout
+            android:id="@+id/fragment0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@+id/fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</feifei.project.view.SlowScrollView> <!-- </com.runkun.lbsq.view.OverScrollView> -->
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_main1_first.xml -->

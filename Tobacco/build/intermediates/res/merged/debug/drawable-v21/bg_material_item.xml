@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/common_primary"
+    >
+  <item android:drawable="@android:color/white"/>
+</ripple><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/PhotoPicker/src/main/res/drawable-v21/bg_material_item.xml --><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/build/intermediates/exploded-aar/Lbsq-master/PhotoPicker/unspecified/res/drawable-v21/bg_material_item.xml -->

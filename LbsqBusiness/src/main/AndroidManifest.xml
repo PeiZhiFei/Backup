@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.runkun.lbsq.busi" >
+
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.GuideActivity"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.ForgetPasswordActivity" />
+        <activity android:name=".activity.FeedBackActivity" />
+        <activity android:name=".activity.JudgeActivity" />
+        <activity android:name=".activity.SearchOrderActivity" />
+        <activity android:name=".activity.SearchGoodActivity" />
+        <activity
+            android:name=".activity.CaptureActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".activity.OrderActivity" />
+        <activity android:name=".activity.CategoryActivity" />
+        <activity
+            android:name=".activity.ResultActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".activity.OrderInfoActivity" />
+        <activity android:name=".activity.EmptyActivity" />
+        <activity android:name="com.desmond.squarecamera.CameraActivity" />
+        <activity
+            android:name=".activity.TestActivity"/>
+    </application>
+
+</manifest>

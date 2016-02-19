@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="#efeff4" >
+    <CheckBox
+        android:id="@+id/shop_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/check_bg" />
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#333333"
+        android:text="商品超市" />
+
+</LinearLayout>
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/item_group_shopcart_shop.xml -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/white"
+             android:orientation="vertical">
+
+    <!-- <include -->
+    <!-- android:id="@+id/include" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_gravity="dialog_center" -->
+    <!-- layout="@layout/empty_view" /> -->
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/width_match_parent"
+        android:background="@color/lightgray"
+        android:divider="@color/lightgray"
+        android:dividerHeight="0.5dp"
+        android:scrollbars="none"/>
+
+</FrameLayout>

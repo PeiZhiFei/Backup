@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <feifei.project.view.NewtonCradleLoading
+        android:id="@+id/newton_cradle_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout><!-- From: file:/E:/Git/Lbsq/Project/src/main/res/layout/dialog.xml --><!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/layout/dialog.xml -->

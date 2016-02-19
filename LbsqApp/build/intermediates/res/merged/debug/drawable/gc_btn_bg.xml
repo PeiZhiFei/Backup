@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:color="@color/gc_category_bg_s" />
+    <item android:state_checked="false" android:color="@color/gc_category_bg" />
+
+</selector>
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/drawable/gc_btn_bg.xml -->

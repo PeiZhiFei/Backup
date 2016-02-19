@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.OverScrollView
+    android:id="@+id/buydl_page"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4">
+
+    <LinearLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#efeff4"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_address"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfced2"/>
+
+        <TextView
+            android:id="@+id/buy_shop_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#fcefaf"
+            android:drawableLeft="@drawable/order_shop_img"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="系统后台"
+            android:textColor="@color/mainblack"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cfced2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="商    品："
+                    android:textColor="#666666"/>
+
+                <TextView
+                    android:id="@+id/buy_good_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:hint="商品名称"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="#cfced2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="单    价："
+                    android:textColor="#666666"/>
+
+                <TextView
+                    android:id="@+id/buy_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:hint="单价"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="#cfced2"/>
+
+            <RelativeLayout
+                android:id="@+id/count_container"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/count_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="数    量："
+                    android:textColor="#666666"/>
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/count_label"
+                    android:gravity="center_vertical"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"/>
+
+                <include
+                    android:id="@+id/include_counter_count"
+                    layout="@layout/include_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="#cfced2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="总    价："
+                    android:textColor="#666666"/>
+
+                <TextView
+                    android:id="@+id/total_fee"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:hint="总价"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="#cfced2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:paddingLeft="10dp"
+                    android:text="优惠券："
+                    android:textColor="#ff0000"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_coupon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="24"
+                    android:background="@null"
+                    android:hint="0张优惠券可用"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"
+                    android:textSize="12sp"/>
+
+                <ImageButton
+                    android:id="@+id/sel_coupon_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/arrow_right_bn"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="#cfced2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="应    付："
+                    android:textColor="#666666"/>
+
+                <TextView
+                    android:id="@+id/real_fee"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:hint="应付"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#999999"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buy_order_btn"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_green"
+            android:gravity="center"
+            android:text="在线支付"
+            android:textColor="@drawable/gd_text_color"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</feifei.project.view.OverScrollView>
+<!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_buy_now.xml -->

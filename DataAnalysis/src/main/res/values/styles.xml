@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_window</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="DialogStyle" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/green</item>
+    </style>
+
+    <style name="table_title" parent="percent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/table_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@drawable/table_tltle_click</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <color name="s1">#6a9cfe</color>
+    <color name="s2">#25ba51</color>
+    <color name="s3">#fec052</color>
+    <color name="s4">#fe6d52</color>
+    <color name="s5">#fe3cb5</color>
+    <color name="s6">#b654fe</color>
+
+</resources>

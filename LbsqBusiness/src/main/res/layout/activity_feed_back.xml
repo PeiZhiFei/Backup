@@ -1,0 +1,39 @@
+<feifei.project.view.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_green"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/gary_corner_border"
+        android:gravity="start"
+        android:hint="请给我们一些宝贵的建议吧"
+        android:padding="10dp"
+        app:layout_heightPercent="35%h"
+        app:layout_marginPercent="5%w"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green"
+        android:text="提交"
+        android:textColor="@color/white"
+        app:layout_marginPercent="5%w"/>
+
+</feifei.project.view.percent.PercentLinearLayout>

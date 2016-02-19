@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_green"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <feifei.project.view.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <feifei.project.view.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <feifei.project.view.smartimage.SmartImageView
+                android:id="@+id/add_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher"
+                app:layout_heightPercent="18%"
+                app:layout_marginTopPercent="3%h"
+                app:layout_widthPercent="30%"
+                />
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/goodsbarcode"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint=""
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                app:layout_heightPercent="7%"
+                app:layout_marginTopPercent="23%h"
+                app:layout_widthPercent="60%"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgray"
+                app:layout_marginTopPercent="30%h"
+                app:layout_widthPercent="90%"/>
+
+            <TextView
+                android:id="@+id/top_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="商品分类:"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="8%"
+                app:layout_marginTopPercent="33%h"
+                app:layout_widthPercent="25%"
+                android:textColor="@color/darkgray"/>
+
+            <TextView
+                android:id="@+id/cagetory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/top_left"
+                android:hint="点击获取分类信息"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="5%"
+                app:layout_marginTopPercent="33%h"
+                />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/lightgray"
+                android:visibility="visible"
+                app:layout_marginTopPercent="39%h"
+                app:layout_widthPercent="90%"/>
+
+            <TextView
+                android:id="@+id/name_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="商品名称:"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="8%"
+                app:layout_marginTopPercent="42%h"
+                app:layout_widthPercent="25%"
+                android:textColor="@color/darkgray"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/goodsname"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_toRightOf="@+id/name_left"
+                android:background="@color/white"
+                android:hint="商品名称"
+                android:textColor="@color/black"
+                android:imeOptions="actionNext"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="5%"
+                app:layout_marginTopPercent="41%h"
+                android:enabled="false"
+                android:minEms="10"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/lightgray"
+                android:visibility="visible"
+                app:layout_marginTopPercent="48%h"
+                app:layout_widthPercent="90%"/>
+
+            <TextView
+                android:id="@+id/money_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="商品价格:"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="8%"
+                app:layout_marginTopPercent="52%h"
+                app:layout_widthPercent="25%"
+                android:textColor="@color/darkgray"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/goodsprice"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toRightOf="@+id/money_left"
+                android:background="@color/white"
+                android:hint="商品价格"
+                android:imeOptions="actionNext"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="5%"
+                app:layout_marginTopPercent="51%h"
+                app:layout_widthPercent="40%"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/lightgray"
+                android:visibility="visible"
+                app:layout_marginTopPercent="58%h"
+                app:layout_widthPercent="90%"/>
+
+            <TextView
+                android:id="@+id/tj_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是否特价:"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="8%"
+                app:layout_marginTopPercent="62%h"
+                app:layout_widthPercent="25%"
+                android:textColor="@color/darkgray"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/tjprice"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toRightOf="@+id/tj_left"
+                android:background="@color/white"
+                android:hint="商品特价"
+                android:imeOptions="actionNext"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="5%"
+                app:layout_marginTopPercent="61%h"
+                app:layout_widthPercent="40%"
+                />
+
+            <CheckBox
+                android:id="@+id/istejia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/check_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/darkgray2"
+                android:textSize="13sp"
+                app:layout_marginTopPercent="61%h"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/lightgray"
+                android:visibility="visible"
+                app:layout_marginTopPercent="68%h"
+                app:layout_widthPercent="90%"/>
+
+            <TextView
+                android:id="@+id/left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="首页推荐:"
+                android:textSize="13sp"
+                app:layout_heightPercent="5%"
+                app:layout_marginLeftPercent="8%"
+                app:layout_marginTopPercent="71%h"
+                app:layout_widthPercent="25%"
+                android:textColor="@color/darkgray"/>
+
+            <CheckBox
+                android:id="@+id/istuijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/check_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/darkgray2"
+                android:textSize="13sp"
+                app:layout_marginTopPercent="70%h"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgray"
+                android:visibility="visible"
+                app:layout_marginTopPercent="77%h"
+                app:layout_widthPercent="100%"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                app:layout_heightPercent="10%"
+                app:layout_marginTopPercent="80%h">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green"
+                    android:text="保存"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    />
+
+                <Button
+                    android:id="@+id/add_goods"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green"
+                    android:text="保存并上架"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    />
+
+                <Button
+                    android:id="@+id/down_goods"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green"
+                    android:text="下架"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </feifei.project.view.percent.PercentRelativeLayout>
+    </feifei.project.view.OverScrollView>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/layout_selector"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/layout_selector"
+        android:descendantFocusability="blocksDescendants">
+
+        <feifei.library.view.smartimage.SmartImageView
+            android:id="@+id/land_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/asd"
+            android:scaleType="fitCenter"/>
+
+
+        <TextView
+            android:id="@+id/land_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@id/land_img"
+            android:layout_toRightOf="@id/land_img"
+            android:ellipsize="end"
+            android:minEms="30"
+            android:minWidth="120dp"
+            android:singleLine="true"
+            android:text="地块名称"
+            android:textColor="#666666"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:id="@+id/land_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/land_name"
+            android:layout_below="@id/land_name"
+            android:layout_marginTop="5dp"
+            android:text="旱地"
+            android:padding="3dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/land_feature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平田"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"
+            android:layout_alignTop="@+id/land_type"
+            android:layout_toRightOf="@+id/land_type"
+            android:layout_toEndOf="@+id/land_type" />
+        <TextView
+            android:id="@+id/soil_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水稻土"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"
+            android:layout_alignTop="@+id/land_feature"
+            android:layout_toRightOf="@+id/land_feature"
+            android:layout_toEndOf="@+id/land_feature" />
+        <TextView
+            android:id="@+id/tobacco_breed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="云烟87"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"
+            android:layout_alignTop="@+id/soil_type"
+            android:layout_toRightOf="@+id/soil_type"
+            android:layout_toEndOf="@+id/soil_type" />
+
+        <TextView
+            android:id="@+id/land_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/land_name"
+            android:layout_below="@id/land_type"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"
+            android:text="启用年份2015"/>
+
+        <TextView
+            android:id="@+id/land_mu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/land_year"
+            android:layout_below="@id/land_type"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:padding="3dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"
+            android:text="亩"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/arrow"
+            android:focusable="false"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

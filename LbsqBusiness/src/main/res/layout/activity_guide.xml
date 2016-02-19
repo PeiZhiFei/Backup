@@ -1,0 +1,38 @@
+<feifei.project.view.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/guide_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:layout_marginPercent="8%h"
+        android:padding="10dp"
+        android:background="@drawable/asheet_bt_single"
+        android:text="开始体验"
+        android:textColor="@color/green"
+        android:visibility="invisible"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/viewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:layout_marginBottomPercent="5%w"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</feifei.project.view.percent.PercentFrameLayout>

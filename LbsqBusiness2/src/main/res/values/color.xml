@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mainblack">#333333</color>
+    <color name="orange">#FF8e56</color>
+    <color name="orangepressed">#50FF8e56</color>
+    <color name="black">#000000</color>
+    <color name="black2">#f707252b</color>
+    <color name="main_green">#4aac7b</color>
+    <color name="main_green_pressed">#5039ac69</color>
+    <color name="city_color">#E5E5E5</color>
+    <color name="city_color_pressed">#50E5E5E5</color>
+    <color name="blue">#0b6aff</color>
+    <color name="blue2">#500b6aff</color>
+    <color name="reds">#ff5757</color>
+    <color name="toast_color">#ff2E76B9</color>
+
+
+    <color name="darkgray">#666666</color>
+    <color name="darkgray2">#999999</color>
+    <color name="blueness">#60d5c3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#01000000</color>
+    <color name="halftransparent">#e0000000</color>
+    <color name="lightred">#EB3C00</color>
+    <color name="lightgray">#dededc</color>
+    <color name="lightgray2">#50dededc</color>
+    <color name="bluelogin">#00bfd4</color>
+    <color name="green">#00cc00</color>
+    <color name="red">#ff5757</color>
+    <color name="red_pressed">#50ff5757</color>
+    <color name="deep_red">#80d61212</color>
+    <color name="backgroundgray">#efeee9</color>
+    <color name="yellow">#f29901</color>
+    <color name="deep_orange">#d34545</color>
+    <color name="origianlprice">#2edad8</color>
+    <color name="line_gray">#9e9a9b</color>
+    <color name="yolk">#feefab</color>
+    <drawable name="gc_category_bg">#eeeeee</drawable>
+    <drawable name="gc_category_bg_s">#ffffff</drawable>
+
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+
+
+</resources>

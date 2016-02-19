@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/width_height_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color"/>
+
+    <include layout="@layout/include_actionbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+        android:scrollingCache="true"/>
+
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/activity_usable_coupon.xml -->

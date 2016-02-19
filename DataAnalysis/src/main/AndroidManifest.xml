@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="feifei.dataanalysis">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATEA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@style/dialog_loading_style" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".base.OrderListActivity" />
+        <activity android:name=".base.OrderListActivity2" />
+        <activity android:name=".activity.StoreInfoActivity" />
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="43B6FBE296E210C68108A9FAC76C0F29" />
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="数据统计V1.2" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55e9bb9767e58ea11b0045e5" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="数据统计V1.2" />
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+    </application>
+
+</manifest>

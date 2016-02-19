@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.hitoosoft.hrssapp"
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+
+
+    signingConfigs {
+        debug {
+            storeFile file('hrssappdebug.keystore')
+        }
+    }
+
+}
+
+dependencies {
+    compile files('libs/android_api_1.1_forsdk.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/galaxy_mini.jar')
+    compile 'com.android.support:support-v4:23.1.0'
+}

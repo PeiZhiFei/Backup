@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_bottom_style" parent="dialog_style">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/popup_anim</item>
+    </style>
+
+    <style name="popup_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <style name="dialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="dialog_loading_style" parent="dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+
+    <style name="percent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string" />
+        <attr name="layout_heightPercent" format="string" />
+        <attr name="layout_marginPercent" format="string" />
+        <attr name="layout_marginLeftPercent" format="string" />
+        <attr name="layout_marginTopPercent" format="string" />
+        <attr name="layout_marginRightPercent" format="string" />
+        <attr name="layout_marginBottomPercent" format="string" />
+        <attr name="layout_marginStartPercent" format="string" />
+        <attr name="layout_marginEndPercent" format="string" />
+        <attr name="layout_textSizePercent" format="string" />
+        <attr name="layout_maxWidthPercent" format="string" />
+        <attr name="layout_maxHeightPercent" format="string" />
+        <attr name="layout_minWidthPercent" format="string" />
+        <attr name="layout_minHeightPercent" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ClearEditText">
+        <attr name="right_image" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CradleBall">
+        <attr name="loading_color" format="color" />
+        <attr name="loading_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsDividerWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsPaddingMiddle" format="boolean" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsTabTextSize" format="dimension" />
+        <attr name="pstsTabTextColor" format="reference" />
+        <attr name="pstsTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="pstsTabTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextAlpha" format="integer" />
+        <attr name="pstsTabTextFontFamily" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ActionSheets">
+        <attr name="actionSheetStyle" format="reference" />
+
+    </declare-styleable>
+    <declare-styleable name="ActionSheet">
+        <attr name="actionSheetBackground" format="color|reference" />
+        <attr name="cancelButtonBackground" format="color|reference" />
+        <attr name="otherButtonTopBackground" format="color|reference" />
+        <attr name="otherButtonMiddleBackground" format="color|reference" />
+        <attr name="otherButtonBottomBackground" format="color|reference" />
+        <attr name="otherButtonSingleBackground" format="color|reference" />
+        <attr name="cancelButtonTextColor" format="color|reference" />
+        <attr name="otherButtonTextColor" format="color|reference" />
+        <attr name="actionSheetPadding" format="dimension|reference" />
+        <attr name="otherButtonSpacing" format="dimension|reference" />
+        <attr name="cancelButtonMarginTop" format="dimension|reference" />
+        <attr name="actionSheetTextSize" format="dimension|reference" />
+    </declare-styleable>
+
+    <style name="ActionSheetStyleIOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/asheet_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/asheet_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/asheet_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/asheet_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/asheet_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+</resources>

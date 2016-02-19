@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fruitpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_type_title" />
+
+    <include
+        layout="@layout/nodata_view"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/width_match_parent"
+        android:background="@color/white"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:scrollingCache="true" >
+    </ListView>
+
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_fruitshop.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_gravity="center_vertical"
+    android:animateLayoutChanges="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <feifei.project.view.ClearEditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/search_border"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="请搜索"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:textColor="@color/red"
+        android:textColorHint="@color/darkgray2"
+        android:textSize="15sp"
+        app:layout_marginLeftPercent="10%w"
+        app:layout_widthPercent="60%w"
+
+        />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#00000000"
+        android:text="搜索"
+        android:textColor="@drawable/search_click"
+        android:textSize="14sp"
+        app:layout_marginRightPercent="10%w" />
+
+</feifei.project.view.percent.PercentLinearLayout>

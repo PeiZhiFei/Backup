@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/layout_selector"
+                android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/layout_selector"
+        android:descendantFocusability="blocksDescendants">
+
+        <feifei.project.view.smartimage.SmartImageView
+            android:id="@+id/good_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
+
+
+        <TextView
+            android:id="@+id/good_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@id/good_img"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/good_img"
+            android:ellipsize="end"
+            android:minEms="30"
+            android:minWidth="120dp"
+            android:singleLine="true"
+            android:text="商品名称"
+            android:textColor="#666666"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:id="@+id/good_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/good_name"
+            android:layout_below="@id/good_name"
+            android:layout_marginTop="5dp"
+            android:text="￥ 5.4"
+            android:textColor="@color/reds"/>
+
+        <TextView
+            android:id="@+id/good_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/good_name"
+            android:layout_below="@id/good_price"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:background="@drawable/button_green"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/arrow"
+            android:focusable="false"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

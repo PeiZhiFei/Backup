@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        style="@style/width_match_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/decorder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/main_red_color" />
+
+        <include
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            layout="@layout/include_actionbar" />
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/activity_pay.xml -->

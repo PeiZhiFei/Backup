@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dialog-">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/Tobacco/build/intermediates/exploded-aar/dialog/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Tobacco/build/intermediates/exploded-aar/dialog/res" />
+      <root url="jar://$PROJECT_DIR$/Tobacco/build/intermediates/exploded-aar/dialog/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

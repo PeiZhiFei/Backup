@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mycollectpage"
+    style="@style/width_height_match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color" />
+
+    <include layout="@layout/include_actionbar" />
+
+    <RadioGroup
+        android:id="@+id/my_collect_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <RadioButton
+            android:id="@+id/radio_first"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="商品收藏"
+            android:textColor="@drawable/mc_textcolor_sel"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/lightgray" />
+
+        <RadioButton
+            android:id="@+id/radio_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="商户收藏"
+            android:textColor="@drawable/mc_textcolor_sel"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/lightgray" >
+
+        <View
+            android:id="@+id/mc_indicator_1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/main_red_color" />
+
+        <View
+            android:id="@+id/mc_indicator_2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/nodata"
+        style="@style/WrapContent"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/no_data"
+        android:visibility="gone" />
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/collect" -->
+    <!-- style="@style/width_match_parent" -->
+    <!-- android:animateLayoutChanges="true" -->
+    <!-- android:divider="@drawable/backgroundgray" -->
+    <!-- android:scrollbars="none" > -->
+    <!-- </ListView> -->
+
+
+    <!-- <com.runkun.lbsq.view.swipmenu.SwipeMenuListView -->
+    <!-- android:id="@+id/example_lv_list" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:listSelector="#00000000" /> -->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/activity_my_base.xml -->

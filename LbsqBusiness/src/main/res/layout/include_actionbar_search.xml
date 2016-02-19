@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/width_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical"
+    android:animateLayoutChanges="true"
+    android:background="@color/main_green"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <feifei.project.view.ClearEditText
+        android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_border"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="请搜索"
+        android:imeOptions="actionSearch"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightgray2"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="10dp"
+        android:background="#00000000"
+        android:text="搜索"
+        android:textColor="@drawable/search_button_textcolor_sel"
+        android:textSize="14sp"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="camera-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LbsqBusiness/build/intermediates/exploded-aar/camera/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/LbsqBusiness/build/intermediates/exploded-aar/camera/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

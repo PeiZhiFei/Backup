@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:layout_width="3dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/gc_subclass_indicator"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/gc_sub_categoryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="测试"
+        android:textColor="#39ac69"
+        android:textSize="12sp" />
+    
+<!--     <View  -->
+<!--         android:background="@drawable/lightgray" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="1dp"/> -->
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/item_category_child.xml -->

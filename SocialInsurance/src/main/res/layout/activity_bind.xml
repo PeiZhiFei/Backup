@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9eae9"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/include_statuebar"/>
+
+    <include
+        android:id="@+id/actionbar"
+        android:layout_height="50dp"
+            android:layout_width="match_parent"
+        layout="@layout/actionbar_custom" />
+ 	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="注：“社保查询密码”为人社局网站查询社保信息时使用的密码，如果没有该密码请先在人社局网站注册"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_sfzh"
+        style="@style/bindedittext"
+        android:hint="身份证号码" />
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/bindedittext"
+        android:hint="参保人姓名" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        style="@style/bindedittext"
+        android:inputType="number"
+        android:hint="手机号码" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        style="@style/bindedittext"
+        android:hint="社保查询密码" />
+
+    <Button
+        android:id="@+id/bind_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/bind_button"
+        android:text=" 提交绑定"
+        android:alpha="0.8"
+        android:textColor="#000033" />
+
+</LinearLayout>

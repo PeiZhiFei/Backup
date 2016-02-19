@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/bind_layout"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_board"
+            android:orientation="vertical" >
+
+            <com.hitoosoft.hrssapp.view.RoundImage
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/siservice_top2" />
+
+            <TextView
+                android:id="@+id/bind_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tx_board"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/siservice_top"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_normal"
+                android:gravity="left"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tab_bind_name"
+                    style="@style/bind_info"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/tab_bind_name" />
+
+                <TextView
+                    android:id="@+id/bind_name"
+                    style="@style/bind_info"
+                    android:layout_alignBaseline="@id/tab_bind_name"
+                    android:layout_toRightOf="@id/tab_bind_name" />
+
+                <TextView
+                    android:id="@+id/tab_bind_sfz"
+                    style="@style/bind_info"
+                    android:layout_below="@id/tab_bind_name"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/tab_bind_sfz" />
+
+                <TextView
+                    android:id="@+id/bind_sfzh"
+                    style="@style/bind_info"
+                    android:layout_alignBaseline="@id/tab_bind_sfz"
+                    android:layout_toRightOf="@id/tab_bind_sfz"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/tab_bind_sjh"
+                    style="@style/bind_info"
+                    android:layout_below="@id/tab_bind_sfz"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/tab_bind_sjh" />
+
+                <TextView
+                    android:id="@+id/bind_phone"
+                    style="@style/bind_info"
+                    android:layout_alignBaseline="@id/tab_bind_sjh"
+                    android:layout_toRightOf="@id/tab_bind_sjh" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FFFAF0"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/grid_title"
+                android:text="@string/tab_siservice_title_sbcx" />
+
+            <com.hitoosoft.hrssapp.view.SiServiceGridView
+                android:id="@+id/siquerymodule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#FFFAF0"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/grid_title"
+                android:text="@string/tab_siservice_title_sbk" />
+
+            <com.hitoosoft.hrssapp.view.SiServiceGridView
+                android:id="@+id/sicardmodule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="5dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#FFFAF0"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/grid_title"
+                android:text="其他" />
+
+            <com.hitoosoft.hrssapp.view.SiServiceGridView
+                android:id="@+id/siothermodule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="5dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

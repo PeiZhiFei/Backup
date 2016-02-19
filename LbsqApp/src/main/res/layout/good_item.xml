@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/good_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_selector1"
+                android:descendantFocusability="afterDescendants"
+                android:paddingTop="2dp">
+
+    <ImageView
+        android:id="@+id/good_img"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:contentDescription="@string/login"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/zhanwei"/>
+
+    <TextView
+        android:id="@+id/good_name"
+        style="@style/WrapContent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/good_img"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="@string/goodtype"
+        android:textColor="@color/darkgray"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/WrapContent"
+        android:layout_alignLeft="@id/good_name"
+        android:layout_below="@id/good_name"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="left"
+        android:text="@string/price"
+        android:textColor="@color/reds"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/or_price"
+        style="@style/WrapContent"
+        android:layout_below="@id/good_name"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/price"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="left"
+        android:padding="1dp"
+        android:text="@string/price"
+        android:textColor="@color/lightgray"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/good_card"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/price"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/good_name"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shop_card"
+        android:contentDescription="@string/login"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

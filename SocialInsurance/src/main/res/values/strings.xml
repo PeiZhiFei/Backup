@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">掌上人社</string>
+    <string name="tab_news">新闻资讯</string>
+    <string name="tab_guide">办事指南</string>
+    <string name="tab_siservice">人社服务</string>
+    <string name="tab_job">就业招聘</string>
+    <string name="tab_bind_name">"    姓名："</string>
+    <string name="tab_bind_sfz">身份证：</string>
+    <string name="tab_bind_sjh">手机号：</string>
+    <string name="module_developping">工程师玩命开发中\n敬请期待！^_^</string>
+    <string name="about_me">\t\t掌上人社是由济宁市人力资源和社会保障局设计开发，主要用途是宣传人力资源社会保障政策、提供社会保障信息查询、发布市人社局在社会保障、就业服务、人事人才、劳动关系等方面工作的最新动态，为企事业单位和个人提供了解人社工作的便民服务平台。</string>
+
+    <!-- 自定义listview -->
+    <string name="drop_down_list_header_default_text">点击可以刷新</string>
+    <string name="drop_down_list_header_pull_text">下拉可以刷新</string>
+    <string name="drop_down_list_header_release_text">松开可以刷新</string>
+    <string name="drop_down_list_header_loading_text">加载中…</string>
+    <string name="drop_down_list_footer_default_text">点击加载更多</string>
+    <string name="drop_down_list_footer_loading_text">加载中…</string>
+    <string name="drop_down_list_footer_no_more_text">没有更多了</string>
+    <string name="update_at">更新于 </string>
+    <string name="subscribe_msg">消息订阅</string>
+    <string name="about">关于我们</string>
+    <string name="checkupdate">检查更新</string>
+    <string name="clearcache">清除缓存</string>
+    <string name="guide">新手引导</string>
+    <string name="changealert_msg">社保卡余额变动提醒消息</string>
+    <string name="paybill_msg">月缴费对账消息</string>
+    <string name="choose">确认选择</string>
+    <string name="choose_all">全选</string>
+    <string name="tab_siservice_title_sbcx">社保查询</string>
+    <string name="tab_siservice_title_sbk">社保卡</string>
+    <string name="tab_siservice_title_cjcx">成绩查询</string>
+    <string name="tab_siservice_title_ypml">药品目录</string>
+
+</resources>

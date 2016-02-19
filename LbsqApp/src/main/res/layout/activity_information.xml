@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lightgray"
+              android:orientation="vertical"
+    >
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/youhui_bg"
+        android:orientation="vertical"
+        android:paddingBottom="80dp"
+        android:paddingLeft="20dp"
+        >
+
+
+        <TextView
+            style="@style/youhuiquan"
+            android:text="每台设备只能领取一次新用户券包"/>
+
+        <TextView
+            style="@style/youhuiquan"
+            android:text="每个手机号只能领取一次新用户券包"
+            />
+
+        <TextView
+            style="@style/youhuiquan"
+            android:text="每个用户每天最多使用一张优惠券"
+            />
+
+        <TextView
+            style="@style/youhuiquan"
+            android:text="优惠券过期后无法使用"
+            />
+
+        <TextView
+            style="@style/youhuiquan"
+            android:text="满减优惠券达到指定金额才可以使用"
+            />
+    </LinearLayout>
+</LinearLayout>

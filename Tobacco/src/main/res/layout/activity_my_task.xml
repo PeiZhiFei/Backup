@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"/>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sezi"
+        android:text="您有待上传数据1条"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/uptask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_green"
+        android:text="数据同步"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+</LinearLayout>

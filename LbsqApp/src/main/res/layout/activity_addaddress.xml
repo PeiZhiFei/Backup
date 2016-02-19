@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/addaddresspage"
+    style="@style/width_height_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color"/>
+
+    <include
+        layout="@layout/include_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <feifei.project.view.OverScrollView
+        style="@style/width_height_match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            style="@style/width_height_match_parent"
+            android:orientation="vertical">
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/username"
+                style="@style/width_match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gary_corner_border"
+                android:drawableLeft="@drawable/add_user"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:hint="@string/name_hint"
+                android:imeOptions="actionNext"
+                android:padding="5dp"
+                android:textColorHint="@color/darkgray2"
+                android:textSize="14sp"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/phone"
+                style="@style/width_match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/gary_corner_border"
+                android:drawableLeft="@drawable/add_number"
+                android:drawablePadding="10dp"
+                android:hint="@string/phone_hint"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textColorHint="@color/darkgray2"
+                android:textSize="14sp"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/address"
+                style="@style/width_match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/gary_corner_border"
+                android:drawableLeft="@drawable/add_address"
+                android:drawablePadding="10dp"
+                android:hint="@string/address_r_hint"
+                android:imeOptions="actionNext"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColorHint="@color/darkgray2"
+                android:textSize="14sp"/>
+
+            <feifei.project.view.ClearEditText
+                android:id="@+id/mark"
+                style="@style/width_match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/gary_corner_border"
+                android:drawableLeft="@drawable/address_mark"
+                android:drawablePadding="10dp"
+                android:hint="@string/address_deail_hint"
+                android:imeOptions="actionDone"
+                android:padding="5dp"
+                android:textColorHint="@color/darkgray2"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_green"
+                    android:text="@string/save"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/voice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_oranger"
+                    android:text="语音输入"
+                    android:textColor="@color/white"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+    </feifei.project.view.OverScrollView>
+</LinearLayout>

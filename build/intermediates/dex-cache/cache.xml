@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\library-2.4.0-dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\butterknife-6.0.0-a99f0ad1ee211fe60f4e547fe6ca3f5a72affa98.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\dialog\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0698d5c928cf0c969c41c78e11076d86cd6d24c9">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-52b3ba9a2259ca4b9d761439bdbd6af4c5f86df8.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\xUtils-2.6.14-b3550119621b05c1c661da30017da23f09aa01a5.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-dcaa6b28de79b350498dfab8468fa3fa8e84f67b.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\netroid-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39c13ae284dc8d4435565b508d01d33413716860">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\netroid-1.2.1-e32e6ac8b28fb6ad70c9982ef35238b7aaf4d917.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\glide-3.6.0-660a6f025f5601321e88b4acb58e9f0734e3c85e.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\Lbsq-master\PhotoPicker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0ee36b2a6e076f2223a0f4ff9e48c624c065536c">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-069efa7d473b018c08e1be96e3354a8d2970ae4a.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\Lbsq-master\MyLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b68f1bf3fad0c35f4e9b8d029a4467c7db2da29a">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-a6a10c5fa76818e03acffff1772399afd033e1d5.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-b32d68c6770acec0ee9796aafa1ab0ae9c5945a1.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\locSDK_5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\locSDK_5.2-fde9ae48ef5a3528a69c5d4f377af7f220d4c130.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\picasso-2.5.2-2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        jar="D:\Soft\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5be804aa8c1d24065754a7fee04d65d08bb629f2.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\ormlite-android-4.49-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecfae85e17f2472852fa8298952f9d52f6a6bfa4">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\ormlite-android-4.49-SNAPSHOT-c73ba8e3223b32d72c146242604ebec8bbc3f9c0.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\ormlite-core-4.49-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\ormlite-core-4.49-SNAPSHOT-16c4a3623743cd2f041868b505be81c54adf20cd.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\fastjson-1.2.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\fastjson-1.2.2-42214a418e34c40e22935f10cf3234f3c87446cd.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\swipeback\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04a58df06a63d0c8d4c3016721d20ad35943e268">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-30fa6afa561462fb53d4ed298c8ea4b5ce69e0cb.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-d91651a05bd1fac1e01f5daacac5342694203d61.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-bc35724a234e02374c3ba7a231fe82d6149cf28e.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\classes-9c0a59bec871d71e0e05ef1b699702f0b2d3a550.jar" />
+    </item>
+    <item
+        jar="E:\GitHub\MyCode\Lbsq-master\Tobacco\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb71d6cfe5166741a0a99e85471a8b90e97f5228">
+        <dex dex="E:\GitHub\MyCode\Lbsq-master\Tobacco\build\intermediates\pre-dexed\debug\BaiduLBS_Android-c955c0514ce3ac504bc1ba4a30fabaaaa122317b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/common_primary" android:state_pressed="true" />
+    <item android:drawable="@android:color/white" />
+</selector><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/PhotoPicker/src/main/res/drawable/bg_material_item.xml --><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/build/intermediates/exploded-aar/Lbsq-master/PhotoPicker/unspecified/res/drawable/bg_material_item.xml -->

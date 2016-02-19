@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">#01000000</drawable>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+    <color name="red">#db4141</color>
+    <color name="red2">#db6c60</color>
+
+    <color name="youlan">#ff6a46</color>
+    <color name="mainblack">#333333</color>
+    <color name="orange">#f48f5c</color>
+    <color name="orangepressed">#50FF8e56</color>
+    <color name="black">#000000</color>
+    <color name="black2">#f707252b</color>
+    <color name="light_green">#7fac7c</color>
+    <color name="main_green">#39ac69</color>
+    <color name="main_green_pressed">#5039ac69</color>
+    <color name="city_color">#E5E5E5</color>
+    <color name="city_color_pressed">#50E5E5E5</color>
+    <color name="blue">#0b6aff</color>
+    <color name="blue2">#500b6aff</color>
+    <color name="reds">#ff5757</color>
+    <color name="toast_color">#ff2E76B9</color>
+    <color name="pink">#01a8a8</color>
+    <color name="pink_pressed">#5000cccc</color>
+    <color name="brown">#9575cd</color>
+    <color name="brown3">#8e048c</color>
+    <color name="brown2">#eeb7f4</color>
+    <color name="brown_pressed">#509575cd</color>
+    <color name="colorPrimary">#71c7c4</color>
+
+
+    <color name="darkgray">#666666</color>
+    <color name="darkgray2">#999999</color>
+    <color name="blueness">#60d5c3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#01000000</color>
+    <color name="halftransparent">#e0000000</color>
+    <color name="lightred">#EB3C00</color>
+    <color name="lightgray">#dededc</color>
+    <color name="lightgray2">#50dededc</color>
+    <color name="bluelogin">#00bfd4</color>
+    <color name="red_pressed">#50ff5757</color>
+    <color name="deep_red">#80d61212</color>
+    <color name="backgroundgray">#efeee9</color>
+    <color name="yellow">#f29901</color>
+    <color name="deep_orange">#d34545</color>
+    <color name="origianlprice">#2edad8</color>
+    <color name="line_gray">#9e9a9b</color>
+    <color name="yolk">#feefab</color>
+    <color name="s1">#6a9cfe</color>
+    <color name="s2">#25ba51</color>
+    <color name="s3">#fec052</color>
+    <color name="s4">#fe6d52</color>
+    <color name="s5">#fe3cb5</color>
+    <color name="s6">#b654fe</color>
+</resources>

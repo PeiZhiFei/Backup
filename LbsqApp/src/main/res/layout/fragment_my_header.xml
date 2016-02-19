@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/my_head"
+        style="@style/WrapContent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/header"
+        android:contentDescription="@string/login" />
+
+    <TextView
+        android:id="@+id/login"
+        style="@style/WrapContent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/my_head"
+        android:text="@string/login"
+        android:textColor="@drawable/text_white_red_click"
+        android:textSize="20sp" />
+
+</RelativeLayout>

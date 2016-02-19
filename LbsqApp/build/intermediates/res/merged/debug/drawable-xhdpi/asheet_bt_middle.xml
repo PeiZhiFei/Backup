@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <item android:drawable="@drawable/as_middle_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/as_middle_normal"/>
+
+</selector><!-- From: file:/E:/Git/Lbsq/Project/src/main/res/drawable-xhdpi/asheet_bt_middle.xml --><!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/drawable-xhdpi/asheet_bt_middle.xml -->

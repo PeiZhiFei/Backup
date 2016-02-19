@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/address_layout"
+    style="@style/width_match_parent"
+    android:background="@drawable/layout_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="70dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/user_name"
+        style="@style/WrapContent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textColor="@color/darkgray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/WrapContent"
+        android:layout_alignLeft="@id/user_name"
+        android:layout_below="@id/user_name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textColor="@color/darkgray2"
+        android:textSize="14sp" />
+
+    <!-- <CheckBox -->
+    <!-- android:id="@+id/is_selected" -->
+    <!-- style="@style/WrapContent" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:layout_marginLeft="5dp" -->
+    <!-- android:layout_marginRight="5dp" -->
+    <!-- android:focusable="false" -->
+    <!-- android:textColor="@drawable/black" /> -->
+
+    <Button
+        android:id="@+id/is_selected"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/check_bg"
+        android:focusable="false"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/phone"
+        style="@style/WrapContent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/is_selected"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lightgray" />
+
+</RelativeLayout>

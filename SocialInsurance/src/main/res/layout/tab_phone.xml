@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iamge"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/siservice_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iamge" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="人力资源和社会保障热线" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="12333" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="就业促进科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967915" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="就业办培训科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2339939" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="养老保险科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2966798" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="医疗工伤失业保险科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2966769" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="社保局企业养老保险科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2937561" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="社保局基金征缴科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2937959" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="社保局劳动能力鉴定科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2937902" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="市社保局退休人员管理科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2937962" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="就业办失业科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2343244" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="公务员管理科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967956" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="事业单位人事管理科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967955" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="教育培训与职业能力建设科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967398" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="专业技术人员管理科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967959" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="人才服务中心流动服务科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967973" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="市人才市场" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967956" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="惠普人力资源市场" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2968676" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="劳动关系科" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967163" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="劳动监察支队" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967110" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="劳动人事争议仲裁院" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2967218" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/phone_layout" >
+
+                <TextView
+                    style="@style/phone_left"
+                    android:text="查社保登录问题" />
+
+                <TextView
+                    style="@style/phone_right"
+                    android:text="2937569" />
+            </RelativeLayout>
+
+          
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item android:state_enabled="false">
+        <shape>
+
+            <solid android:color="#5071c7c4" />
+            <corners android:radius="8dp" />
+            <stroke android:width="0.5dp" android:color="#5071c7c4" />
+
+
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+
+            <solid android:color="#5071c7c4" />
+            <corners android:radius="8dp" />
+            <stroke android:width="0.5dp" android:color="#5071c7c4" />
+
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+
+            <solid android:color="#71c7c4" />
+
+            <corners android:radius="8dp" />
+            <stroke android:width="0.5dp" android:color="#5071c7c4" />
+
+
+        </shape>
+    </item>
+</selector><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/drawable/login_button.xml -->

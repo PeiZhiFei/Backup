@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feifei.project.view.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <feifei.project.view.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/item_round_border"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="瑞隆超市"
+            android:textColor="@color/pink"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/order_price"
+            style="@style/percent"
+            android:layout_below="@id/store_name"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="15dp"
+            android:text="营业总额"
+            android:textColor="@color/red"
+            app:layout_widthPercent="50%w" />
+
+        <TextView
+            android:id="@+id/order_count"
+            style="@style/percent"
+            android:layout_below="@id/store_name"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/order_price"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="15dp"
+            android:text="订单总量"
+            android:textColor="@color/main_green"
+            app:layout_widthPercent="50%w" />
+    </feifei.project.view.percent.PercentRelativeLayout>
+</feifei.project.view.percent.PercentRelativeLayout>

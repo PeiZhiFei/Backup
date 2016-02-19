@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <!--<com.duowan.mobile.netroid.image.NetworkImageView-->
+        <!--android:id="@+id/first_image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:gravity="center"-->
+        <!--android:src="@drawable/asd"-->
+        <!--android:scaleType="centerCrop" />-->
+
+    <ImageView
+        android:id="@+id/first_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:src="@drawable/asd"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/first_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#95CCEEFF"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/E:/GitHub/MyCode/Lbsq-master/Tobacco/src/main/res/layout/list_item_first.xml -->

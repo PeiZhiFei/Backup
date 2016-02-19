@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/GitHub/MyCode/Lbsq-master/PhotoPicker/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_40">#282828</color>
+    <color name="colorPrimary">#2b8c62</color>
+    <color name="common_primary">#f3f3f3</color>
+    <color name="pager_bg">#CA000000</color>
+    <color name="selected_bg">#44000000</color>
+    <color name="text_120">#787878</color>
+    <color name="text_40">#282828</color>
+    <color name="text_80">#505050</color>
+    <!-- From: file:/E:/GitHub/MyCode/Lbsq-master/PhotoPicker/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="actionBarSize">48dip</dimen>
+    <dimen name="item_camera_size">80dip</dimen>
+    <dimen name="item_photo_size">80dip</dimen>
+    <!-- From: file:/E:/GitHub/MyCode/Lbsq-master/PhotoPicker/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="all_image">All Images</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_to_delete">Confirm to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="deleted_a_photo">Deleted a photo</string>
+    <string name="done">Done</string>
+    <string name="done_with_count">Done(%1$d/%2$d)</string>
+    <string name="image_count">%1$d</string>
+    <string name="image_index">%1$d/%2$d</string>
+    <string name="images">Images</string>
+    <string name="over_max_count_tips">Up to %1$d photos can be selected</string>
+    <string name="undo">Undo</string>
+    <string name="yes">Yes</string>
+</resources>

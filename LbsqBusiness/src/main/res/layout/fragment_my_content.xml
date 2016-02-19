@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:slideswitch="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lightgray2"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/contact_admin"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/b_contact"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="联系管理员"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/kefu"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/b_contact"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="客服热线：4000279567"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/lightgray2"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/change_password"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/b_change"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="修改登录密码"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shop_state_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/b_state"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="8dp"
+            android:text="营业状态"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/shop_state"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/check_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/feedback"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/b_feedback"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="意见反馈"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/quit"
+        style="@style/width_match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/button_green"
+        android:text="退出"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+</LinearLayout>

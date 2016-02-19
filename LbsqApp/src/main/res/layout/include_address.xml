@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="收货地址"
+            style="@style/buynow_include_left"/>
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/buy_adr"
+            style="@style/buynow_include_right"
+            android:hint="请输入您的收货地址"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+         />
+        <ImageView
+            android:id="@+id/select_addr"
+            android:layout_width="30dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right_bn"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#cfced2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/buynow_include_left"
+            android:text="收货人" />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/buy_person_name"
+            android:hint="收货人姓名"
+            style="@style/buynow_include_right"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#cfced2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/buynow_include_left"
+            android:text="联系电话"/>
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/buy_tel_no"
+            android:hint="请输入您的电话号码"
+            style="@style/buynow_include_right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#cfced2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/buynow_include_left"
+            android:text="备注"
+         />
+
+        <feifei.project.view.ClearEditText
+            android:id="@+id/buy_commits"
+            android:hint="嘱咐我两句"
+            style="@style/buynow_include_right" />
+    </LinearLayout>
+
+</LinearLayout>

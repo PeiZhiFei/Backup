@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/swipeback/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="background_window">#FFE5E5E5</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="backgroundgray">#efeee9</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="banana">#FFCC00</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="black2">#f707252b</color>
+    <color name="blue">#0b6aff</color>
+    <color name="blue2">#500b6aff</color>
+    <color name="bluelogin">#00bfd4</color>
+    <color name="blueness">#60d5c3</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="brown">#9575cd</color>
+    <color name="brown2">#eeb7f4</color>
+    <color name="brown3">#8e048c</color>
+    <color name="brown_pressed">#509575cd</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="city_color">#E5E5E5</color>
+    <color name="city_color_pressed">#50E5E5E5</color>
+    <color name="darkgray">#666666</color>
+    <color name="darkgray2">#999999</color>
+    <color name="deep_orange">#d34545</color>
+    <color name="deep_red">#80d61212</color>
+    <color name="gc_category_bg">#eeeeee</color>
+    <color name="gc_category_bg_s">#ffffff</color>
+    <color name="green">#00cc00</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="greenDark">#3E5F22</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="halftransparent">#e0000000</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="light_green">#7fac7c</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="lightgray">#dededc</color>
+    <color name="lightgray2">#50dededc</color>
+    <color name="lightred">#EB3C00</color>
+    <color name="line_gray">#9e9a9b</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="main_green">#39ac69</color>
+    <color name="main_green_pressed">#5039ac69</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="main_red_color">#0bab58</color>
+    <color name="main_red_color_pressed">#5039ac69</color>
+    <color name="mainblack">#333333</color>
+    <color name="orange">#FF8e56</color>
+    <color name="orangepressed">#50FF8e56</color>
+    <color name="origianlprice">#2edad8</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="pink">#01a8a8</color>
+    <color name="pink_pressed">#5000cccc</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="red">#ff5757</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="red2">#db6c60</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="red_pressed">#50ff5757</color>
+    <color name="reds">#ff5757</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="toast_color">#ff2E76B9</color>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="transparent">#01000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#f29901</color>
+    <color name="yolk">#feefab</color>
+    <color name="youlan">#ff6a46</color>
+    <declare-styleable name="ActionSheet"><attr format="color|reference" name="actionSheetBackground"/><attr format="color|reference" name="cancelButtonBackground"/><attr format="color|reference" name="otherButtonTopBackground"/><attr format="color|reference" name="otherButtonMiddleBackground"/><attr format="color|reference" name="otherButtonBottomBackground"/><attr format="color|reference" name="otherButtonSingleBackground"/><attr format="color|reference" name="cancelButtonTextColor"/><attr format="color|reference" name="otherButtonTextColor"/><attr format="dimension|reference" name="actionSheetPadding"/><attr format="dimension|reference" name="otherButtonSpacing"/><attr format="dimension|reference" name="cancelButtonMarginTop"/><attr format="dimension|reference" name="actionSheetTextSize"/></declare-styleable>
+    <declare-styleable name="ActionSheets"><attr format="reference" name="actionSheetStyle"/></declare-styleable>
+    <declare-styleable name="ClearEditText"><attr format="reference" name="right_image"/></declare-styleable>
+    <declare-styleable name="CradleBall"><attr format="color" name="loading_color"/><attr format="string" name="loading_text"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="color" name="pstsUnderlineColor"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsDividerWidth"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsScrollOffset"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsPaddingMiddle"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="reference" name="pstsTabBackground"/><attr format="dimension" name="pstsTabTextSize"/><attr format="reference" name="pstsTabTextColor"/><attr format="reference" name="pstsTabTextStyle"><flag name="normal" value="0x0"/><flag name="bold" value="0x1"/><flag name="italic" value="0x2"/></attr><attr format="boolean" name="pstsTabTextAllCaps"/><attr format="integer" name="pstsTabTextAlpha"/><attr format="string" name="pstsTabTextFontFamily"/></declare-styleable>
+    <declare-styleable name="PercentLayout_Layout"><attr format="string" name="layout_widthPercent"/><attr format="string" name="layout_heightPercent"/><attr format="string" name="layout_marginPercent"/><attr format="string" name="layout_marginLeftPercent"/><attr format="string" name="layout_marginTopPercent"/><attr format="string" name="layout_marginRightPercent"/><attr format="string" name="layout_marginBottomPercent"/><attr format="string" name="layout_marginStartPercent"/><attr format="string" name="layout_marginEndPercent"/><attr format="string" name="layout_textSizePercent"/><attr format="string" name="layout_maxWidthPercent"/><attr format="string" name="layout_maxHeightPercent"/><attr format="string" name="layout_minWidthPercent"/><attr format="string" name="layout_minHeightPercent"/></declare-styleable>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <dimen name="popmenu_yoff">5.0dip</dimen>
+    <item name="scrollview" type="id"/>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ADAPTERMY">此商品已经全部移除</string>
+    <string name="ADAPTERPRICE">单价：￥</string>
+    <string name="ADSADD">正在添加地址……</string>
+    <string name="ADSADDFAIL">添加失败</string>
+    <string name="ADSADDSUCCESS">添加成功</string>
+    <string name="ADSALREADYDEF">这一条已经是默认地址了</string>
+    <string name="ADSEDITFAIL">编辑失败</string>
+    <string name="ADSEDITSUCCESS">编辑成功</string>
+    <string name="ADSEXIST">该地址已存在</string>
+    <string name="ADSORDER">排序中</string>
+    <string name="ADSSETTING">正在设置默认地址……</string>
+    <string name="ALLLOADED">已加载全部数据</string>
+    <string name="BUYPAYNO">未支付</string>
+    <string name="BUYPAYYES">已支付</string>
+    <string name="CANCEL">取消</string>
+    <string name="CLICKLOADINGMORE">点击加载更多</string>
+    <string name="CLICKME">点我查看更多分类啊</string>
+    <string name="CONCANTWRONG">联系方式有误</string>
+    <string name="CONFIM">确定</string>
+    <string name="DDELFAV">确定要清空收藏夹吗？</string>
+    <string name="DDELJUDGE">确定要删除所有评价吗？</string>
+    <string name="DEFAULTS">默认</string>
+    <string name="DELETING">删除中……</string>
+    <string name="DELFAIL">删除失败</string>
+    <string name="DELSUCCESS">删除成功</string>
+    <string name="DOUBLEQUIT">再按一次退出程序</string>
+    <string name="DTITLE">提示</string>
+    <string name="EMPTYLOADING">努力加载中……</string>
+    <string name="ERRORCLASSCAST">类转换错误</string>
+    <string name="FAVADDFAIL">添加到我的收藏失败</string>
+    <string name="FAVADDSUCCESS">成功添加到我的收藏</string>
+    <string name="FAVALREADYHAS">已收藏</string>
+    <string name="FAVFULL">我的收藏数量已满</string>
+    <string name="FAVGOODS">商品收藏</string>
+    <string name="FAVSHOPS">商户收藏</string>
+    <string name="FIRSTNOGOODS">此商店暂无该栏目的上架商品</string>
+    <string name="FORGETPASSWORDBUTTON">忘记登录密码?</string>
+    <string name="GETREDPACKAGE">登陆后可以领取红包哦</string>
+    <string name="GOODNOMORE">没有更多类别了</string>
+    <string name="JSONERROR">数据解析错误</string>
+    <string name="JUDGECOMMIT">提交中……</string>
+    <string name="JUDGEFAIL">评价失败，请重试</string>
+    <string name="JUDGESUCCESS">评价成功</string>
+    <string name="JUSTSO">就这么多了</string>
+    <string name="LEAVEUP">离开</string>
+    <string name="LOADING">加载中</string>
+    <string name="LOCATING">定位中……</string>
+    <string name="LOCATIONFAIL">定位失败，请手动选择</string>
+    <string name="LOGINFAIL">用户名或密码错误</string>
+    <string name="LOGINING">登录中……</string>
+    <string name="LOGINSUCCESS">成功登录</string>
+    <string name="NETERRORCLICK">数据加载超时，点击重试</string>
+    <string name="NETERRORGOING">网络开小差了</string>
+    <string name="NETWORKERROR">网络连接错误</string>
+    <string name="NOALREADYBUYS">暂无已购买商品</string>
+    <string name="NOFAV">暂无收藏</string>
+    <string name="NOGOODS">暂无商品</string>
+    <string name="NOJIFEN">暂无积分</string>
+    <string name="NOJUDGE">该商品尚无评价</string>
+    <string name="NOJUDGE2">暂无评价</string>
+    <string name="NOLOGIN">您还未登录,单击确定直接登录</string>
+    <string name="NOMORE">暂无更多</string>
+    <string name="NONOPAYS">暂无未支付商品</string>
+    <string name="NOSHOPS">暂无超市</string>
+    <string name="NOWAYPRICE">免运费</string>
+    <string name="PCOMMITING">正在提交预支付订单</string>
+    <string name="PCREATFAIL">创建预支付订单失败</string>
+    <string name="PERROR">支付异常</string>
+    <string name="PHONEWRONG">手机格式错误，请重新输入</string>
+    <string name="PLEASEADDRESS">请输入地址</string>
+    <string name="PLEASEJUDGE">请先给个评分吧</string>
+    <string name="PLEASEUSERNAME">请输入用户名</string>
+    <string name="PLEASEWRITE">请输入一点内容吧</string>
+    <string name="PRESULT">支付结果</string>
+    <string name="RCHANGEFAIL">修改密码失败</string>
+    <string name="RCHANGESUCCESS">修改密码成功</string>
+    <string name="REQUESTLOGIN">请您先登录后再购买商品</string>
+    <string name="RERRORALREADYREGSITER">该用户已经注册过了，请重试</string>
+    <string name="RERRORALREADYREGSITERLOGIN">该用户已经注册过了，请登录</string>
+    <string name="RERRORNOREGSITER">该用户并未注册，请先注册</string>
+    <string name="RERRORVERIFY">验证码错误</string>
+    <string name="RGETTING">请求中……</string>
+    <string name="RGETVERIFY">获取验证码</string>
+    <string name="RPASSNOMATCH">两次密码输入不匹配</string>
+    <string name="RPASSSHORT">密码长度需要大于等于6位数</string>
+    <string name="RPLEASEVERIFY">请输入验证码</string>
+    <string name="RREGISTERSUCCESS">注册成功</string>
+    <string name="RREGSITING">注册中……</string>
+    <string name="RSEND">秒后重新发送</string>
+    <string name="RSENDFAIL">发送失败，请重试</string>
+    <string name="RSENDSUCCESS">发送成功，请注意查收</string>
+    <string name="SEARCHHINT">请输入关键字搜索吧</string>
+    <string name="SEARCHING">搜索中……</string>
+    <string name="SEARCHNOGOODS">暂无该商品</string>
+    <string name="SEARCHNOMOREGOODS">无更多商品</string>
+    <string name="SEARCHNOMORESHOP">无更多超市</string>
+    <string name="SEARCHNOSHOP">暂无该超市</string>
+    <string name="SEARCHPLEASE">请输入点内容吧</string>
+    <string name="SEARCHSHOPHINT">请输入超市名</string>
+    <string name="SHOPCARDADDFAIL">无法添加到购物车</string>
+    <string name="SHOPCARDADDSUCCESS">成功添加到购物车</string>
+    <string name="SHOPCARDFULL">购物车已满</string>
+    <string name="TADSADD">添加收货地址</string>
+    <string name="TADSEDIT">修改收货地址</string>
+    <string name="TBUYNOW">确认订单</string>
+    <string name="TCAGEROTY">商品分类</string>
+    <string name="TFORGET">忘记密码</string>
+    <string name="TGOODDETAIL">商品详情</string>
+    <string name="TJUDGELIST">评价列表</string>
+    <string name="TLOGIN">登录</string>
+    <string name="TMY">我的</string>
+    <string name="TMYADS">收货地址</string>
+    <string name="TMYBUY">已购买商品</string>
+    <string name="TMYFAV">我的收藏</string>
+    <string name="TMYJUDGE">我的评价</string>
+    <string name="TMYSCORE">我的积分</string>
+    <string name="TPAY">结算</string>
+    <string name="TREGISTER">注册</string>
+    <string name="TSELECTCITY">选择城市</string>
+    <string name="TSHOPCARD">购物车</string>
+    <string name="TSHOPLIST">超市列表</string>
+    <string name="WAYPRICEBASE">元起送，不满加</string>
+    <string name="WAYPRICEPRICE">元运费</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_card">添加到购物车</string>
+    <string name="address_deail_hint">备注</string>
+    <string name="address_p_c_r_hint">收货地址  省/市/区或县</string>
+    <string name="address_r_hint">收货地址</string>
+    <string name="app_name">零步社区</string>
+    <string name="app_tip">正在支付</string>
+    <string name="buy_now">立即购买</string>
+    <string name="change_supermatkey">切换超市</string>
+    <string name="clearing">结算</string>
+    <string name="comment">评论</string>
+    <string name="complete">完成</string>
+    <string name="confirm">确定</string>
+    <string name="contact_supermatkey">联系超市</string>
+    <string name="count">数量:</string>
+    <string name="count_label">数量:</string>
+    <string name="del">删除</string>
+    <string name="dishplay_all">显示更多</string>
+    <string name="divide_type">分类</string>
+    <string name="explain">说明:</string>
+    <string name="forget_login_pass">忘记登录密码</string>
+    <string name="free_register">免费注册</string>
+    <string name="getting_prepayid">正在支付,请耐心等候</string>
+    <string name="good_describe">商品描述:</string>
+    <string name="good_describe_hint">请简单描述您购买商品做为支付宝的购物凭证</string>
+    <string name="good_name">商品名称:</string>
+    <string name="goodtype">商品分类</string>
+    <string name="guess_like">猜您喜欢</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jinanshi">济南市</string>
+    <string name="login">用户登录</string>
+    <string name="mainneu1">切换超市</string>
+    <string name="mainneu2">联系超市</string>
+    <string name="mainneu3">联系客服</string>
+    <string name="mainneu4">优惠券</string>
+    <string name="more">更多</string>
+    <string name="my">我的</string>
+    <string name="my_address">收货地址</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="my_exit">退出</string>
+    <string name="my_shop_card">我的购物车</string>
+    <string name="name_hint">收货人</string>
+    <string name="pass">密      码:</string>
+    <string name="pass_hint">请输入密码</string>
+    <string name="pay_money">支付金额:</string>
+    <string name="pay_now">立即付款</string>
+    <string name="phone">手  机  号:</string>
+    <string name="phone_hint">手机号</string>
+    <string name="plelogin">先登录一下吧～</string>
+    <string name="price">3.0</string>
+    <string name="price_unit">单价:</string>
+    <string name="pricelabel">价格:</string>
+    <string name="purchased">已购买商品</string>
+    <string name="rcommon">一般</string>
+    <string name="register">用户注册</string>
+    <string name="register_phone_hint">请填写正确的手机号</string>
+    <string name="register_verfication_hint">请输入手机验证码</string>
+    <string name="req_verifcation">获取验证码</string>
+    <string name="rpass">确认密码:</string>
+    <string name="rpass_hint">再次输入密码</string>
+    <string name="rperfect">"无可挑剔"</string>
+    <string name="rpoor">差</string>
+    <string name="rsatisfy">满意</string>
+    <string name="rvsatisfy">非常满意</string>
+    <string name="save">保存</string>
+    <string name="search_hint">请输入超市名或商品名称 ~</string>
+    <string name="send_min">起送价格</string>
+    <string name="send_scope">送货范围</string>
+    <string name="serch_goods">请搜索商品</string>
+    <string name="serch_shop">请搜索超市</string>
+    <string name="shop">超市</string>
+    <string name="shopcard">购物车</string>
+    <string name="should_money">订单金额:</string>
+    <string name="summoeny">合计:</string>
+    <string name="time_send_good">20分钟送货到门</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_my_web">MyWebActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="use_redpackage_hint">单击红包图片使用红包</string>
+    <string name="verification">验  证  码:</string>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="ActionSheetStyleIOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/asheet_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/asheet_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/asheet_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/asheet_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/asheet_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="LoginRegister" parent="@android:style/Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="Splash" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/swipeback/res/values/values.xml -->
+    <eat-comment/>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="WrapContent" parent="@android:style/Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="XTheme2" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="ads_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="buynow_include_left">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="buynow_include_right">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="dialog_bottom_style" parent="dialog_style">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/popup_anim</item>
+    </style>
+    <style name="dialog_loading_style" parent="dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="dialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="include_order_info">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="include_order_info_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="include_order_info_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="judgeRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bg</item>
+        <item name="android:minHeight">13dp</item>
+        <item name="android:maxHeight">13dp</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="percent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="popup_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    <!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="register_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkgray</item>
+        <item name="android:textColorHint">@color/darkgray2</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="width_height_match_parent" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="width_match_parent" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/backgroundgray</item>
+    </style>
+    <style name="width_match_parent_wihte" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="youhuiquan">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkgray2</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:drawableLeft">@drawable/shape_circle_green</item>
+    </style>
+</resources>

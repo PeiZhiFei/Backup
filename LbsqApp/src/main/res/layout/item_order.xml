@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/layout_selector"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/order_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="06-29 18:29"
+        android:textColor="@color/darkgray"/>
+
+    <TextView
+        android:id="@+id/order_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="订单完成"
+        android:textColor="@color/black2"/>
+
+    <View
+        android:id="@+id/order_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/order_time"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray"/>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/order_line"
+        android:layout_margin="10dp"
+        >
+
+        <feifei.project.view.smartimage.SmartImageView
+            android:id="@+id/order_image"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/shop_name"
+            style="@style/WrapContent"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/shop_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/order_image"
+            android:text="沃尔玛"
+            android:textColor="@color/darkgray"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/WrapContent"
+            android:layout_alignLeft="@id/shop_name"
+            android:layout_below="@id/shop_name"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="￥120"
+            android:textColor="@color/reds"
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/arrow_right_bn"/>
+    </RelativeLayout>
+
+</RelativeLayout>

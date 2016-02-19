@@ -1,0 +1,15 @@
+<resources>
+
+
+    <!-- 支付相关标签 -->
+    <string name="app_tip">正在支付</string>
+    <string name="getting_prepayid">正在支付,请耐心等候</string>
+
+
+    <!-- pay -->
+    <string name="PCOMMITING">正在提交预支付订单</string>
+    <string name="PCREATFAIL">创建预支付订单失败</string>
+    <string name="PRESULT">支付结果</string>
+    <string name="PERROR">支付异常</string>
+
+</resources>

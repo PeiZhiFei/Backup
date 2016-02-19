@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gc_exp_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:drawablePadding="5dp"
+        android:background="@color/backgroundgray"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="商品分类"
+        android:textColor="@color/darkgray"
+        android:textSize="14sp" />
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="#e6e6e6" />-->
+    <!-- android:drawableLeft="@drawable/main_category_left" -->
+
+</LinearLayout>

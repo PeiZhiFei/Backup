@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/layout_selector"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/layout_selector"
+        android:descendantFocusability="blocksDescendants" >
+
+        <feifei.project.view.smartimage.SmartImageView
+            android:id="@+id/good_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/good_img"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/good_img"
+                android:minEms="30"
+                android:minWidth="120dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="测试1测试1测试1测试1"
+                android:textColor="#666666"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/good_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/shop_name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="测试1"
+                    android:textColor="@color/reds" />
+
+                <TextView
+                    android:id="@+id/old_price"
+                    style="@style/WrapContent"
+                    android:layout_alignBaseline="@id/good_price"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/shop_name"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/good_price"
+                    android:gravity="center"
+                    android:text="测试1"
+                    android:textColor="@color/lightgray"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/buy_now"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignRight="@id/text_container"
+            android:background="@drawable/button_green"
+            android:gravity="center"
+            android:text="@string/buy_now"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/shopcard"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@id/text_container"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/shop_card_selector"
+            android:focusable="false"
+            android:visibility="gone" />
+
+        <ImageButton
+            style="@style/WrapContent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/arrow_gray"
+            android:focusable="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lightgray" />
+    </RelativeLayout>
+
+</RelativeLayout>

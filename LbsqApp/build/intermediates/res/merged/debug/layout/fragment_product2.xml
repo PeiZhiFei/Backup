@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/duckpage"
+    style="@style/width_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ScrollView
+        style="@style/width_match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/width_match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/duck_top"
+                style="@style/width_match_parent"/>
+
+            <ImageView
+                style="@style/width_match_parent"
+                android:background="@drawable/l1"/>
+
+            <ImageView
+                style="@style/width_match_parent"
+                android:background="@drawable/l2"/>
+
+            <ImageView
+                style="@style/width_match_parent"
+                android:background="@drawable/l3"/>
+            <!--<ImageView-->
+                <!--style="@style/width_match_parent"-->
+                <!--android:background="@drawable/l1"/>-->
+
+            <!--<ImageView-->
+                <!--style="@style/width_match_parent"-->
+                <!--android:background="@drawable/l2"/>-->
+
+            <!--<ImageView-->
+                <!--style="@style/width_match_parent"-->
+                <!--android:background="@drawable/l3"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/width_match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/red"
+        android:gravity="right"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buy_now"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/wihte_corner_border"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/buy_now"
+            android:textColor="@drawable/text_white_red_click"
+            android:textSize="12sp"/>
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/buy_now"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:background="@drawable/fab_selector"-->
+        <!--android:src="@drawable/shop_card_white"-->
+        <!--/>-->
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/fragment_product2.xml -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/goodtype4"
+    style="@style/width_match_parent"
+    android:layout_gravity="center"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:gravity="center" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/include_type_title" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/width_match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/title"
+        android:background="@color/white" >
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        style="@style/width_match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/layout1"
+        android:background="@color/white" >
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+
+        <com.runkun.lbsq.view.GoodCombineView
+            android:id="@+id/good6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/good_border"
+            android:visibility="invisible" />
+    </LinearLayout>
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/nodata_view"
+        android:visibility="visible" />
+</RelativeLayout>
+

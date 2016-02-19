@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white" />
+
+    <feifei.project.view.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <feifei.project.view.widget.WaveSwipeRefreshLayout
+            android:id="@+id/main_swipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_heightPercent="30%h">
+
+            <feifei.project.view.percent.PercentRelativeLayout
+                style="@style/percent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/submit"
+                    style="@style/percent"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/home_left"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="今日数据统计"
+                    android:textColor="@color/main_green"
+                    android:textSize="16sp"
+                    app:layout_marginLeftPercent="8%"
+                    app:layout_marginTopPercent="3%" />
+
+                <feifei.project.view.percent.PercentLinearLayout
+                    android:id="@+id/test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/submit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+
+                    <feifei.project.view.percent.PercentLinearLayout
+                        android:id="@+id/order_layout"
+                        style="@style/percent"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shape_circle_orange"
+                        android:descendantFocusability="blocksDescendants"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+
+                        app:layout_heightPercent="20%w"
+                        app:layout_maxHeightPercent="25%w"
+                        app:layout_maxWidthPercent="25%w"
+                        app:layout_minHeightPercent="20%w"
+                        app:layout_minWidthPercent="20%w"
+                        app:layout_widthPercent="20%w">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="订单"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/order_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="……"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </feifei.project.view.percent.PercentLinearLayout>
+
+
+                    <feifei.project.view.percent.PercentLinearLayout
+                        android:id="@+id/money_layout"
+                        style="@style/percent"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shape_circle_green"
+                        android:descendantFocusability="blocksDescendants"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_heightPercent="25%w"
+                        app:layout_maxHeightPercent="28%w"
+                        app:layout_maxWidthPercent="28%w"
+                        app:layout_minHeightPercent="25%w"
+                        app:layout_minWidthPercent="25%w"
+                        app:layout_widthPercent="25%w">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="营业额"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/order_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="……"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </feifei.project.view.percent.PercentLinearLayout>
+
+
+                    <feifei.project.view.percent.PercentLinearLayout
+                        android:id="@+id/search_layout"
+                        style="@style/percent"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/shape_circle_blue"
+                        android:descendantFocusability="blocksDescendants"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+
+                        app:layout_heightPercent="20%w"
+                        app:layout_maxHeightPercent="25%w"
+                        app:layout_maxWidthPercent="25%w"
+                        app:layout_minHeightPercent="20%w"
+                        app:layout_minWidthPercent="20%w"
+                        app:layout_widthPercent="20%w">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="超市"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/store_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="……"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </feifei.project.view.percent.PercentLinearLayout>
+
+                </feifei.project.view.percent.PercentLinearLayout>
+
+                <TextView
+                    android:id="@+id/all_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/test"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="￥ 123412341243"
+                    android:textColor="@color/reds"
+                    android:visibility="gone"
+                    android:textSize="14sp"
+                    app:layout_heightPercent="12%h"
+                    app:layout_marginLeftPercent="10%h"
+                    app:layout_marginRightPercent="5%h"
+                    app:layout_widthPercent="50%w" />
+
+                <TextView
+                    android:id="@+id/all_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/test"
+                    android:layout_toRightOf="@id/all_money"
+                    android:gravity="center"
+                    android:paddingRight="5dp"
+                    android:text="C 1234123"
+                    android:textColor="@color/reds"
+                    android:visibility="gone"
+                    android:textSize="14sp"
+                    app:layout_heightPercent="12%h"
+                    app:layout_marginLeftPercent="5%h"
+                    app:layout_marginRightPercent="10%h"
+                    app:layout_widthPercent="50%w" />
+
+                <!--<feifei.dataanalysis.base.PagerSlidingTabStrip-->
+                <!--android:id="@+id/tabs"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_below="@id/all_count"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="@color/white"-->
+                <!--app:layout_heightPercent="18%h"-->
+                <!--app:pstsDividerColor="#33cccc"-->
+                <!--app:pstsDividerPadding="3dp"-->
+                <!--app:pstsIndicatorColor="@color/red"-->
+                <!--app:pstsIndicatorHeight="2dp"/>-->
+
+            </feifei.project.view.percent.PercentRelativeLayout>
+
+        </feifei.project.view.widget.WaveSwipeRefreshLayout>
+
+    </feifei.project.view.percent.PercentRelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <feifei.project.view.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        app:layout_heightPercent="20%h"
+        app:pstsDividerColor="#33cccc"
+        app:pstsDividerPadding="3dp"
+        app:pstsIndicatorColor="@color/red"
+        app:pstsIndicatorHeight="2dp" />
+
+</LinearLayout>

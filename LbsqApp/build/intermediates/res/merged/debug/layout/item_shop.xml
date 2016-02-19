@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_selector"
+    android:minHeight="60dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/arrow_gray" />
+
+    <TextView
+        android:id="@+id/distance"
+        style="@style/WrapContent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:textColor="@color/main_red_color"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shop_name"
+        style="@style/WrapContent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/distance"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/WrapContent"
+        android:layout_alignLeft="@+id/shop_name"
+        android:layout_below="@id/shop_name"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/distance"
+        android:textColor="@color/darkgray2"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/address"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightgray" />
+
+</RelativeLayout><!-- From: file:/E:/Git/Lbsq/LbsqApp/src/main/res/layout/item_shop.xml -->

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/my_collect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_myfav"
+            android:drawableLeft="@drawable/my_collet"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/my_collect"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="35dp"
+            android:background="#50000000"/>
+
+        <Button
+            android:id="@+id/my_scored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_myfav"
+            android:drawableLeft="@drawable/my_coupon"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="我的优惠券"
+            android:textColor="@color/darkgray"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/my_address"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/my_address"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="@string/my_address"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/my_order"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/my_order"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="我的订单"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+
+    <Button
+        android:id="@+id/my_judge"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/appraise"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="我的评价"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/my_hun"
+        style="@style/width_match_parent"
+        android:background="@drawable/white_gray_click"
+        android:drawableLeft="@drawable/huancun"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:text="清除缓存"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#50000000"/>
+
+    <Button
+        android:id="@+id/quit"
+        style="@style/width_match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/button_green"
+        android:text="退出"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+</LinearLayout>

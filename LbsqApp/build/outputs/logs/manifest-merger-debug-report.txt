@@ -1,0 +1,540 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:2:1-275:12
+	package
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:2:11-36
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+supports-screens
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:6:5-9:39
+	android:largeScreens
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:8:9-36
+	android:normalScreens
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:9:9-37
+	android:anyDensity
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:7:9-34
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:27:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:32:22-63
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:33:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:34:5-87
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:34:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:35:5-74
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:36:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:37:5-67
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:37:22-65
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:38:22-65
+application
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:40:5-273:19
+MERGED from [Lbsq:Project:unspecified] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\Lbsq\Project\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-v4:23.0.1] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.tencent.bugly:crashreport:1.2.3.8] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\com.tencent.bugly\crashreport\1.2.3.8\AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:44:9-41
+	android:supportsRtl
+		ADDED from [Lbsq:Project:unspecified] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\Lbsq\Project\unspecified\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:42:9-35
+	android:icon
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:43:9-45
+	android:largeHeap
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:45:9-33
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:46:9-39
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:41:9-47
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:49:13-53
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:48:13-52
+meta-data#TD_APP_ID
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:50:9-52:63
+	android:value
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:52:13-61
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:51:13-37
+meta-data#TD_CHANNEL_ID
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:53:9-55:42
+	android:value
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:55:13-40
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:54:13-41
+activity#com.runkun.lbsq.activity.SplashActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:57:9-66:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:59:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:60:13-42
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:58:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:61:13-65:29
+action#android.intent.action.MAIN
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:62:13-65
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:62:21-62
+category#android.intent.category.LAUNCHER
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:64:13-73
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:64:23-70
+activity#com.runkun.lbsq.activity.GoodDetailActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:67:9-70:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:69:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:70:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:68:13-56
+activity#com.runkun.lbsq.activity.ShopCardActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:71:9-74:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:73:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:74:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:72:13-54
+activity#com.runkun.lbsq.activity.MyCouponsActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:75:9-78:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:77:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:78:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:76:13-55
+activity#com.runkun.lbsq.activity.BuyNowActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:79:9-82:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:81:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:82:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:80:13-52
+activity#com.runkun.lbsq.activity.MyCollectionActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:83:9-86:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:85:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:86:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:84:13-58
+activity#com.runkun.lbsq.activity.JudgeListActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:87:9-90:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:89:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:90:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:88:13-55
+activity#com.runkun.lbsq.activity.ProductAcitivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:91:9-94:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:93:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:94:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:92:13-54
+activity#com.runkun.lbsq.activity.GoodMoreActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:95:9-98:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:97:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:98:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:96:13-54
+activity#com.runkun.lbsq.activity.SearchGoodsActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:99:9-102:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:101:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:102:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:100:13-57
+activity#com.runkun.lbsq.activity.SearchShopActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:103:9-106:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:105:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:106:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:104:13-56
+activity#com.runkun.lbsq.activity.JudgeActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:107:9-110:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:109:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:110:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:108:13-51
+activity#com.runkun.lbsq.activity.MyJudgeListActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:111:9-114:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:113:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:114:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:112:13-57
+activity#com.runkun.lbsq.activity.MyBuyActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:115:9-118:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:117:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:118:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:116:13-51
+activity#com.runkun.lbsq.activity.SelectorCity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:119:9-122:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:121:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:122:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:120:13-50
+activity#com.runkun.lbsq.activity.MainActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:123:9-127:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:126:13-49
+	android:launchMode
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:125:13-44
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:127:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:124:13-50
+activity#com.runkun.lbsq.activity.LoginActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:128:9-131:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:130:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:131:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:129:13-51
+activity#com.runkun.lbsq.activity.RegisterActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:132:9-135:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:134:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:135:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:133:13-54
+activity#com.runkun.lbsq.activity.ShopListActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:136:9-139:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:138:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:139:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:137:13-54
+activity#com.runkun.lbsq.activity.AddAddressActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:140:9-143:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:142:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:143:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:141:13-56
+activity#com.runkun.lbsq.activity.MyAddressActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:144:9-147:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:146:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:147:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:145:13-55
+activity#com.runkun.lbsq.wxapi.WXPayEntryActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:150:9-156:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:154:13-49
+	android:launchMode
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:153:13-43
+	android:exported
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:152:13-36
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:155:13-47
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:151:13-53
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:158:9-164:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:162:13-47
+	android:exported
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:161:13-37
+	android:windowSoftInputMode
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:163:13-67
+	android:configChanges
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:160:13-74
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:159:13-60
+activity#com.runkun.lbsq.activity.AlipayActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:165:9-168:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:167:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:168:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:166:13-52
+activity#com.runkun.lbsq.activity.ShowOrderActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:169:9-172:45
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:171:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:172:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:170:13-55
+receiver#com.runkun.lbsq.pay.AppRegister
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:174:9-178:20
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:174:19-50
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:175:13-177:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:176:17-99
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:176:25-97
+service#com.baidu.location.f
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:180:9-184:19
+	android:enabled
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:182:13-35
+	android:process
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:183:13-38
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:181:13-48
+activity#com.runkun.lbsq.activity.MyOrderActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:186:9-190:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:188:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:189:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:187:13-53
+activity#com.runkun.lbsq.activity.OrderInfoActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:191:9-195:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:193:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:194:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:192:13-55
+activity#com.runkun.lbsq.activity.UsableCouponActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:196:9-200:20
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:198:13-49
+	android:theme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:199:13-43
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:197:13-58
+receiver#com.baidu.android.pushservice.PushServiceReceiver
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:202:9-216:20
+	android:process
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:204:13-44
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:203:13-77
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:205:13-215:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:206:17-78
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:206:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:207:17-78
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:207:25-76
+action#com.baidu.android.pushservice.action.notification.SHOW
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:208:17-96
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:208:25-94
+action#com.baidu.android.pushservice.action.media.CLICK
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:209:17-90
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:209:25-88
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:211:17-77
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:211:25-75
+action#android.intent.action.USER_PRESENT
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:212:17-76
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:212:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:213:17-86
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:213:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:214:17-89
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:214:25-87
+receiver#com.baidu.android.pushservice.RegistrationReceiver
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:218:9-230:20
+	android:process
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:220:13-44
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:219:13-78
+intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:221:13-224:29
+action#com.baidu.android.pushservice.action.METHOD
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:222:17-85
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:222:25-83
+action#com.baidu.android.pushservice.action.BIND_SYNC
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:223:17-88
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:223:25-86
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:225:13-229:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:226:17-79
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:226:25-77
+data
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:228:17-49
+	android:scheme
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:228:23-47
+service#com.baidu.android.pushservice.PushService
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:232:9-239:19
+	android:process
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:235:13-44
+	android:exported
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:234:13-36
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:233:13-69
+intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:236:13-238:29
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:237:17-91
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:237:25-89
+service#com.baidu.android.pushservice.CommandService
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:241:9-243:38
+	android:exported
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:243:13-36
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:242:13-72
+receiver#com.runkun.lbsq.push.PushTestReceiver
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:246:9-256:20
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:246:19-56
+intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:247:13-255:29
+action#com.baidu.android.pushservice.action.MESSAGE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:250:17-86
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:250:25-84
+action#com.baidu.android.pushservice.action.RECEIVE
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:252:17-86
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:252:25-84
+action#com.baidu.android.pushservice.action.notification.CLICK
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:254:17-97
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:254:25-95
+activity#com.runkun.lbsq.activity.MyWebActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:258:9-260:51
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:260:13-49
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:259:13-51
+activity#com.runkun.lbsq.activity.InformationActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:261:9-263:51
+	android:screenOrientation
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:263:13-49
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:262:13-57
+activity#com.runkun.lbsq.test.TestActivity
+ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:264:9-272:20
+	android:label
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:266:13-56
+	android:name
+		ADDED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml:265:13-46
+uses-sdk
+INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Lbsq:Project:unspecified] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\Lbsq\Project\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.1] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.tencent.bugly:crashreport:1.2.3.8] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\com.tencent.bugly\crashreport\1.2.3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [:swipeback:] E:\Git\Lbsq\LbsqApp\build\intermediates\exploded-aar\swipeback\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\Lbsq\LbsqApp\src\main\AndroidManifest.xml

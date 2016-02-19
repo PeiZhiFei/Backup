@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    signingConfigs {
+        debug {
+            keyAlias 'com.runkun.lbsq'
+            keyPassword 'lbsq_10000'
+            storeFile file('lbsq_u.keystore')
+            storePassword 'lbsq_10000'
+        }
+    }
+
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+    defaultConfig {
+        applicationId "com.runkun.lbsq"
+        minSdkVersion 8
+        targetSdkVersion 21
+        versionCode 14
+        versionName "3.83"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile files('libs/alipaySDK-20150602.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/fastjson-1.2.2.jar')
+    compile files('libs/pushservice-4.5.3.48.jar')
+    compile project(':Project')
+    compile(name: 'swipeback', ext: 'aar')
+}
+
+

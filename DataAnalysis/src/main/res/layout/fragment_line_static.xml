@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <feifei.project.view.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/submit1"
+            style="@style/table_title"
+            android:text="7天订单总数和金额折线图"
+            />
+
+
+        <FrameLayout
+            android:id="@+id/fragment7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_heightPercent="50%h">
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/submit2"
+            style="@style/table_title"
+            android:text="30天订单总数和金额趋势图"/>
+
+
+        <FrameLayout
+            android:id="@+id/fragment30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_heightPercent="50%h">
+        </FrameLayout>
+
+    </feifei.project.view.percent.PercentLinearLayout>
+</ScrollView>
+

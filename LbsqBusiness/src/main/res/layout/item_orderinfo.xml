@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="订单号:"/>
+
+        <TextView
+            android:id="@+id/order_sn"
+            style="@style/include_order_info_right"
+            android:text="111"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="客户:"/>
+
+        <TextView
+            android:id="@+id/order_customer"
+            style="@style/include_order_info_right"
+            android:text="111"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="地址:"/>
+
+        <TextView
+            android:id="@+id/order_address"
+            style="@style/include_order_info_right"
+            android:text="111"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="金额:"/>
+
+        <TextView
+            android:id="@+id/order_price"
+            style="@style/include_order_info_right"
+            android:text="111"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="订单状态:"/>
+
+        <TextView
+            android:id="@+id/order_state"
+            style="@style/include_order_info_right"
+            android:background="@drawable/shape_red_corner"
+            android:padding="5dp"
+            android:text="已完成"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/include_order_info_bg">
+
+        <TextView
+            style="@style/include_order_info"
+            android:text="下单时间:"/>
+
+        <TextView
+            android:id="@+id/order_time"
+            style="@style/include_order_info_right"
+            android:text="111"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

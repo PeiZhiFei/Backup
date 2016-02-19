@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <feifei.project.view.CradleBall
+        android:id="@+id/ball_one"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        app:loading_color="@color/main_green"
+        app:loading_text="零"/>
+
+    <feifei.project.view.CradleBall
+        android:id="@+id/ball_two"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        app:loading_color="@color/pink"
+        app:loading_text="步"/>
+
+    <feifei.project.view.CradleBall
+        android:id="@+id/ball_three"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        app:loading_color="@color/orange"
+        app:loading_text="社"/>
+
+    <feifei.project.view.CradleBall
+        android:id="@+id/ball_four"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        app:loading_color="@color/red2"
+        app:loading_text="区"/>
+
+</LinearLayout><!-- From: file:/E:/Git/Lbsq/Project/src/main/res/layout/newton_cradle_loading.xml --><!-- From: file:/E:/Git/Lbsq/LbsqApp/build/intermediates/exploded-aar/Lbsq/Project/unspecified/res/layout/newton_cradle_loading.xml -->

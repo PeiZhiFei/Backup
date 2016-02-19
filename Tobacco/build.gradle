@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "laiyi.tobacco"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    signingConfigs {
+//        release {
+//            storeFile file("E:\\GitHub\\feifei.keystore")
+//        }
+        debug {
+            storeFile file('feifeidebug.keystore')
+        }
+//        debug {
+//            storeFile file('feifeidebug.keystore')
+//        }
+    }
+
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':PhotoPicker')
+    compile 'com.android.support:appcompat-v7:22.0.1'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile(name: 'swipeback', ext: 'aar')
+    compile(name: 'dialog', ext: 'aar')
+    compile project(':MyLibrary')
+    compile files('libs/netroid-1.2.1.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/ormlite-android-4.49-SNAPSHOT.jar')
+    compile files('libs/ormlite-core-4.49-SNAPSHOT.jar')
+    compile files('libs/fastjson-1.2.2.jar')
+    compile files('libs/locSDK_5.2.jar')
+}
+
+

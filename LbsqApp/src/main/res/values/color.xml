@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mainblack">#333333</color>
+    <color name="orange">#FF8e56</color>
+    <color name="orangepressed">#50FF8e56</color>
+    <color name="black">#000000</color>
+    <color name="black2">#f707252b</color>
+    <color name="main_red_color">#0bab58</color>
+    <color name="main_red_color_pressed">#5039ac69</color>
+    <color name="city_color">#E5E5E5</color>
+    <color name="city_color_pressed">#50E5E5E5</color>
+    <color name="blue">#0b6aff</color>
+    <color name="blue2">#500b6aff</color>
+    <color name="reds">#ff5757</color>
+    <color name="youlan">#ff6a46</color>
+
+    <color name="darkgray">#666666</color>
+    <color name="darkgray2">#999999</color>
+    <color name="blueness">#60d5c3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#01000000</color>
+    <color name="halftransparent">#e0000000</color>
+    <color name="lightred">#EB3C00</color>
+    <color name="lightgray">#dededc</color>
+    <color name="lightgray2">#50dededc</color>
+    <color name="bluelogin">#00bfd4</color>
+    <color name="green">#00cc00</color>
+    <color name="red">#ff5757</color>
+    <color name="red_pressed">#50ff5757</color>
+    <color name="deep_red">#80d61212</color>
+    <color name="backgroundgray">#efeee9</color>
+    <color name="yellow">#f29901</color>
+    <color name="deep_orange">#d34545</color>
+    <color name="origianlprice">#2edad8</color>
+    <color name="line_gray">#9e9a9b</color>
+    <color name="yolk">#feefab</color>
+    <color name="gc_category_bg">#eeeeee</color>
+    <color name="gc_category_bg_s">#ffffff</color>
+
+
+</resources>

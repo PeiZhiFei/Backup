@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/width_height_match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="true"
+    android:background="#f6f6f6"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/decorder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_red_color"/>
+
+    <include layout="@layout/include_actionbar"/>
+
+    <feifei.project.view.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f6f6f6">
+
+        <!-- <com.runkun.lbsq.view.SlideCutListView -->
+        <!-- android:id="@+id/address_list" -->
+        <!-- style="@style/width_match_parent" -->
+        <!-- android:cacheColorHint="#00000000" -->
+        <!-- android:scrollbars="none" -->
+        <!-- android:scrollingCache="true" /> -->
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:background="@drawable/white"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/shop_name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:drawableLeft="@drawable/order_shop"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:text="商店名称"-->
+            <!--android:textColor="#666666"-->
+            <!--android:textSize="14sp"/>-->
+            <!--</LinearLayout>-->
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/order_shop"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="商店名称"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+
+            <feifei.project.view.MyListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+
+            <LinearLayout
+                style="@style/include_order_info_bg">
+
+                <TextView
+                    style="@style/include_order_info"
+                    android:text="配送费"/>
+
+                <TextView
+                    android:id="@+id/price_yunfei"
+                    style="@style/include_order_info_right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/include_order_info_bg">
+
+                <TextView
+                    style="@style/include_order_info"
+                    android:layout_width="150dp"
+                    android:text="优惠券（使用）"/>
+
+                <TextView
+                    android:id="@+id/price_youhui"
+                    style="@style/include_order_info_right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/include_order_info_bg"
+                >
+
+                <TextView
+                    style="@style/include_order_info"
+                    android:text="合计"/>
+
+                <TextView
+                    android:id="@+id/price_total"
+                    style="@style/include_order_info_right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/red"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+
+            <include
+                layout="@layout/include_orderinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/my_judge"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/white"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:drawableLeft="@drawable/order_judge"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:text="我的评价"-->
+            <!--android:textColor="#666666"-->
+            <!--android:textSize="14sp"/>-->
+            <!--</LinearLayout>-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+
+            <TextView
+                android:id="@+id/my_judge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/order_judge"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="我的评价"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:visibility="invisible"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cfced2"/>
+
+            <!--<ListView-->
+            <!--android:id="@+id/my_judgelist"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:visibility="invisible"/>-->
+
+            <include layout="@layout/item_judge"/>
+
+            <Button
+                android:id="@+id/judge"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_green"
+                android:text="我要评价"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+    </feifei.project.view.OverScrollView>
+
+</LinearLayout>
+
